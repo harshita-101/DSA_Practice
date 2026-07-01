@@ -10,6 +10,7 @@ This folder contains C++ solutions for Bit Manipulation problems.
 | 2 | Set i-th Bit | ✅ |
 | 3 | Clear i-th Bit | ✅ |
 | 4 | Toggle i-th Bit | ✅ |
+| 5 | Update i-th Bit | ✅ |
 
 ---
 
@@ -46,4 +47,5 @@ Practice Bit Manipulation problems to strengthen problem-solving skills and buil
 - Solved: **2**
 - Solved: **3**
 - Solved: **4** 
+- Solved: **5**
 - Remaining: More coming soon...
