@@ -17,6 +17,7 @@ This folder contains C++ solutions for Bit Manipulation problems.
 | 9 | Count Set Bits (Optimized) | ✅ |
 | 10 | Find Unique Element using XOR | ✅ |
 | 11 | Swap Two Numbers using XOR | ✅ |
+| 12 | Find Missing Number using XOR | ✅ |
 
 ---
 
@@ -60,4 +61,5 @@ Practice Bit Manipulation problems to strengthen problem-solving skills and buil
 - Solved: **9**
 - Solved: **10**
 - Solved: **11**
+- Solved: **12**
 - Remaining: More coming soon...
