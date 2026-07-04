@@ -18,6 +18,8 @@ This folder contains C++ solutions for Bit Manipulation problems.
 | 10 | Find Unique Element using XOR | ✅ |
 | 11 | Swap Two Numbers using XOR | ✅ |
 | 12 | Find Missing Number using XOR | ✅ |
+| 13 | Find Rightmost Set Bit | ✅ |
+| 14 | Remove Rightmost Set Bit | ✅ |
 
 ---
 
@@ -62,4 +64,6 @@ Practice Bit Manipulation problems to strengthen problem-solving skills and buil
 - Solved: **10**
 - Solved: **11**
 - Solved: **12**
+- Solved: **13**
+- Solved: **14**
 - Remaining: More coming soon...
