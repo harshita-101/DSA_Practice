@@ -12,16 +12,20 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 
 ## Problems Solved
 
-| S.No. | Problem                     | Difficulty | Status |
-| ----: | --------------------------- | ---------- | ------ |
-|     1 | Largest Element in an Array | Easy       | ✅      |
+| S.No. | Problem                            | Difficulty | Status |
+| ----: | ---------------------------------- | ---------- | ------ |
+|     1 | Largest Element in an Array        | Easy       | ✅      |
+|     2 | Second Largest Element in an Array | Easy       | ✅      |
 
 ## Folder Structure
 
 ```text
 Arrays/
 ├── README.md
-└── Largest_Element/
+├── Q1.Largest_Element/
+│   ├── README.md
+│   └── largest_element.cpp
+└── Q2.Second_Largest_Element/
     ├── README.md
-    └── largest_element.cpp
+    └── second_largest_element.cpp
 ```
