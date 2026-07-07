@@ -16,6 +16,9 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 | ----: | ---------------------------------- | ---------- | ------ |
 |     1 | Largest Element in an Array        | Easy       | ✅      |
 |     2 | Second Largest Element in an Array | Easy       | ✅      |
+|     3 | Check if Array is sorted           | Easy       | ✅      |
+
+## Folder Structure
 
 ## Folder Structure
 
@@ -25,7 +28,10 @@ Arrays/
 ├── Q1.Largest_Element/
 │   ├── README.md
 │   └── largest_element.cpp
-└── Q2.Second_Largest_Element/
+├── Q2.Second_Largest_Element/
+│   ├── README.md
+│   └── second_largest_element.cpp
+└── Q3.Check_if_Array_Is_Sorted/
     ├── README.md
-    └── second_largest_element.cpp
+    └── check_if_array_is_sorted.cpp
 ```
