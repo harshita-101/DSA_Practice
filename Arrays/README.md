@@ -12,11 +12,12 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 
 ## Problems Solved
 
-| S.No. | Problem                            | Difficulty | Status |
-| ----: | ---------------------------------- | ---------- | ------ |
-|     1 | Largest Element in an Array        | Easy       | ✅      |
-|     2 | Second Largest Element in an Array | Easy       | ✅      |
-|     3 | Check if Array is sorted           | Easy       | ✅      |
+| S.No. | Problem                              | Difficulty | Status |
+| ----: | -------------------------------------| ---------- | ------ |
+|     1 | Largest Element in an Array          | Easy       | ✅     |
+|     2 | Second Largest Element in an Array   | Easy       | ✅     |
+|     3 | Check if Array is sorted             | Easy       | ✅     |
+|     4 | Remove Duplicates from Sorted Array  | Easy       | ✅     |
 
 ## Folder Structure
 
@@ -31,7 +32,10 @@ Arrays/
 ├── Q2.Second_Largest_Element/
 │   ├── README.md
 │   └── second_largest_element.cpp
-└── Q3.Check_if_Array_Is_Sorted/
+├── Q3.Check_if_Array_Is_Sorted/
+│   ├── README.md
+│   └── check_if_array_is_sorted.cpp
+└── Q4.Remove_Duplicates_From_Sorted_Array/
     ├── README.md
-    └── check_if_array_is_sorted.cpp
+    └── remove_duplicates_from_sorted_array.cpp
 ```
