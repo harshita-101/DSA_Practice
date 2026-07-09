@@ -18,6 +18,8 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 |     2 | Second Largest Element in an Array   | Easy       | ✅     |
 |     3 | Check if Array is sorted             | Easy       | ✅     |
 |     4 | Remove Duplicates from Sorted Array  | Easy       | ✅     |
+|     5 | Left Rotate Array by One Place       | Easy       | ✅     |
+
 
 ## Folder Structure
 
@@ -38,4 +40,7 @@ Arrays/
 └── Q4.Remove_Duplicates_From_Sorted_Array/
     ├── README.md
     └── remove_duplicates_from_sorted_array.cpp
+└── Q4.Left_Rotate_Array_By_One/
+    ├── README.md
+    └── Left_rotate_array_by_one.cpp
 ```
