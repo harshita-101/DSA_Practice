@@ -13,12 +13,13 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 ## Problems Solved
 
 | S.No. | Problem                              | Difficulty | Status |
-| ----: | -------------------------------------| ---------- | ------ |
-|     1 | Largest Element in an Array          | Easy       | ✅     |
-|     2 | Second Largest Element in an Array   | Easy       | ✅     |
-|     3 | Check if Array is sorted             | Easy       | ✅     |
-|     4 | Remove Duplicates from Sorted Array  | Easy       | ✅     |
-|     5 | Left Rotate Array by One Place       | Easy       | ✅     |
+| ----: | -------------------------------------| ---------- | --- |
+|     1 | Largest Element in an Array          | Easy       | ✅ |
+|     2 | Second Largest Element in an Array   | Easy       | ✅ |
+|     3 | Check if Array is sorted             | Easy       | ✅ |
+|     4 | Remove Duplicates from Sorted Array  | Easy       | ✅ |
+|     5 | Left Rotate Array by One Place       | Easy       | ✅ |
+|     6 | Left Rotate Array by D Places        | Easy       | ✅ |
 
 
 ## Folder Structure
@@ -40,7 +41,11 @@ Arrays/
 └── Q4.Remove_Duplicates_From_Sorted_Array/
     ├── README.md
     └── remove_duplicates_from_sorted_array.cpp
-└── Q4.Left_Rotate_Array_By_One/
+└── Q5.Left_Rotate_Array_By_One/
     ├── README.md
     └── Left_rotate_array_by_one.cpp
+└── Q6.Left_Rotate_Array_By_D_Places/
+    ├── README.md
+    └── left_rotate_array_by_d_places.cpp
+    
 ```
