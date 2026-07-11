@@ -12,14 +12,15 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 
 ## Problems Solved
 
-| S.No. | Problem                              | Difficulty | Status |
-| ----: | -------------------------------------| ---------- | --- |
-|     1 | Largest Element in an Array          | Easy       | ✅ |
-|     2 | Second Largest Element in an Array   | Easy       | ✅ |
-|     3 | Check if Array is sorted             | Easy       | ✅ |
-|     4 | Remove Duplicates from Sorted Array  | Easy       | ✅ |
-|     5 | Left Rotate Array by One Place       | Easy       | ✅ |
-|     6 | Left Rotate Array by D Places        | Easy       | ✅ |
+|S.No| Problem                             | Difficulty | Status |
+|--- | ------------------------------------| ---------- | --- |
+| 1 | Largest Element in an Array          | Easy       | ✅ |
+| 2 | Second Largest Element in an Array   | Easy       | ✅ |
+| 3 | Check if Array is sorted             | Easy       | ✅ |
+| 4 | Remove Duplicates from Sorted Array  | Easy       | ✅ |
+| 5 | Left Rotate Array by One Place       | Easy       | ✅ |
+| 6 | Left Rotate Array by D Places        | Easy       | ✅ |
+| 7 | Move All Zeroes to End               | Easy       | ✅ |
 
 
 ## Folder Structure
@@ -47,5 +48,8 @@ Arrays/
 └── Q6.Left_Rotate_Array_By_D_Places/
     ├── README.md
     └── left_rotate_array_by_d_places.cpp
+└── Q7.Move_All_Zeroes_To_End/
+    ├── README.md
+    └── move_all_zeroes_to_end.cpp
     
 ```
