@@ -21,10 +21,14 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 | 5 | Left Rotate Array by One Place       | Easy       | ✅ |
 | 6 | Left Rotate Array by D Places        | Easy       | ✅ |
 | 7 | Move All Zeroes to End               | Easy       | ✅ |
+| 8 | Linear Search                        | Easy       | ✅ |
 
 
 ## Folder Structure
 
+## Folder Structure
+
+```text
 ## Folder Structure
 
 ```text
@@ -39,17 +43,19 @@ Arrays/
 ├── Q3.Check_if_Array_Is_Sorted/
 │   ├── README.md
 │   └── check_if_array_is_sorted.cpp
-└── Q4.Remove_Duplicates_From_Sorted_Array/
-    ├── README.md
-    └── remove_duplicates_from_sorted_array.cpp
-└── Q5.Left_Rotate_Array_By_One/
-    ├── README.md
-    └── Left_rotate_array_by_one.cpp
-└── Q6.Left_Rotate_Array_By_D_Places/
-    ├── README.md
-    └── left_rotate_array_by_d_places.cpp
-└── Q7.Move_All_Zeroes_To_End/
-    ├── README.md
-    └── move_all_zeroes_to_end.cpp
-    
+├── Q4.Remove_Duplicates_From_Sorted_Array/
+│   ├── README.md
+│   └── remove_duplicates_from_sorted_array.cpp
+├── Q5.Left_Rotate_Array_By_One/
+│   ├── README.md
+│   └── left_rotate_array_by_one.cpp
+├── Q6.Left_Rotate_Array_By_D_Places/
+│   ├── README.md
+│   └── left_rotate_array_by_d_places.cpp
+├── Q7.Move_All_Zeros_to_End/
+│   ├── README.md
+│   └── Move_All_Zeros_to_End.cpp
+├── Q8.Linear_Search/
+│   ├── README.md
+│   └── Linear_Search.cpp
 ```
