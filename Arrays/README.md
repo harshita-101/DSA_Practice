@@ -22,6 +22,7 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 | 6 | Left Rotate Array by D Places        | Easy       | ✅ |
 | 7 | Move All Zeroes to End               | Easy       | ✅ |
 | 8 | Linear Search                        | Easy       | ✅ |
+| 9 | Maximum Consecutive Ones             | Easy       | ✅ |
 
 
 ## Folder Structure
@@ -58,4 +59,7 @@ Arrays/
 ├── Q8.Linear_Search/
 │   ├── README.md
 │   └── Linear_Search.cpp
+├── Q9.Max_Consecutive_Ones/
+│   ├── README.md
+│   └── max_Consecutive_Ones.cpp
 ```
