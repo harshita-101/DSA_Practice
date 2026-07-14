@@ -36,31 +36,31 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 ```text
 Arrays/
 ├── README.md
-├── Q1.Largest_Element/
+├── Q01.Largest_Element/
 │   ├── README.md
 │   └── largest_element.cpp
-├── Q2.Second_Largest_Element/
+├── Q02.Second_Largest_Element/
 │   ├── README.md
 │   └── second_largest_element.cpp
-├── Q3.Check_if_Array_Is_Sorted/
+├── Q03.Check_if_Array_Is_Sorted/
 │   ├── README.md
 │   └── check_if_array_is_sorted.cpp
-├── Q4.Remove_Duplicates_From_Sorted_Array/
+├── Q04.Remove_Duplicates_From_Sorted_Array/
 │   ├── README.md
 │   └── remove_duplicates_from_sorted_array.cpp
-├── Q5.Left_Rotate_Array_By_One/
+├── Q05.Left_Rotate_Array_By_One/
 │   ├── README.md
 │   └── left_rotate_array_by_one.cpp
-├── Q6.Left_Rotate_Array_By_D_Places/
+├── Q06.Left_Rotate_Array_By_D_Places/
 │   ├── README.md
 │   └── left_rotate_array_by_d_places.cpp
-├── Q7.Move_All_Zeros_to_End/
+├── Q07.Move_All_Zeros_to_End/
 │   ├── README.md
 │   └── Move_All_Zeros_to_End.cpp
-├── Q8.Linear_Search/
+├── Q08.Linear_Search/
 │   ├── README.md
 │   └── Linear_Search.cpp
-├── Q9.Max_Consecutive_Ones/
+├── Q09.Max_Consecutive_Ones/
 │   ├── README.md
 │   └── max_Consecutive_Ones.cpp
 ├── Q10.Single_Number/
