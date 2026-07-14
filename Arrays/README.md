@@ -23,6 +23,7 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 | 7 | Move All Zeroes to End               | Easy       | ✅ |
 | 8 | Linear Search                        | Easy       | ✅ |
 | 9 | Maximum Consecutive Ones             | Easy       | ✅ |
+| 10| Single Number                        | Easy       | ✅ |
 
 
 ## Folder Structure
@@ -62,4 +63,7 @@ Arrays/
 ├── Q9.Max_Consecutive_Ones/
 │   ├── README.md
 │   └── max_Consecutive_Ones.cpp
+├── Q10.Single_Number/
+│   ├── README.md
+│   └── find_single_number.cpp
 ```
