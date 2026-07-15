@@ -24,6 +24,7 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 | 8 | Linear Search                        | Easy       | ✅ |
 | 9 | Maximum Consecutive Ones             | Easy       | ✅ |
 | 10| Single Number                        | Easy       | ✅ |
+| 11| Longest Subarray with given sum k    | Easy       | ✅ |
 
 
 ## Folder Structure
@@ -66,4 +67,7 @@ Arrays/
 ├── Q10.Single_Number/
 │   ├── README.md
 │   └── find_single_number.cpp
+├── Q11.Longest_subarray_with_given_sum_k/
+│   ├── README.md
+│   └── Longest_subarray_with_given_sum_k.cpp
 ```
