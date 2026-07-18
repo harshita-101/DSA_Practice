@@ -2,28 +2,28 @@
 
 ## Problem Statement
 
-Given an array of positive integers and an integer `K`, find the length of the longest subarray whose sum is equal to `K`.
+Given an array of **positive integers** and an integer `K`, return the length of the longest subarray whose sum is equal to `K`.
 
 ---
 
 ## Example 1
 
-**Input:**
+**Input**
 
 ```text
-Array = [1, 2, 3, 1, 1, 1, 1, 4, 2, 3]
+Array = [1,2,3,1,1,1,1,4,2,3]
 K = 3
 ```
 
-**Output:**
+**Output**
 
 ```text
 3
 ```
 
-**Explanation:**
+**Explanation**
 
-Possible subarrays with sum `3` are:
+Possible subarrays having sum = 3:
 
 ```text
 [1,2]   -> Length = 2
@@ -31,149 +31,101 @@ Possible subarrays with sum `3` are:
 [1,1,1] -> Length = 3
 ```
 
-The longest subarray length is **3**.
+Hence, the answer is **3**.
 
 ---
 
-## Example 2
+## Approach (Optimal - Sliding Window)
 
-**Input:**
+### Idea
 
-```text
-Array = [1, 2, 1, 1, 1]
-K = 3
-```
-
-**Output:**
-
-```text
-3
-```
-
----
-
-# Approach 1 (Brute Force)
-
-## Idea
-
-Generate every possible subarray and calculate its sum.
-
-Whenever the sum becomes equal to `K`, update the maximum length.
-
-### Time Complexity
-
-```text
-O(n²)
-```
-
-### Space Complexity
-
-```text
-O(1)
-```
-
----
-
-# Approach 2 (Better Approach - Prefix Sum + HashMap)
-
-## Idea
-
-Store the prefix sum in a hash map.
-
-Whenever `(currentSum - K)` exists in the map, a valid subarray is found.
-
-This approach works for:
-
-- Positive numbers
-- Negative numbers
-- Mixed arrays
-
-### Time Complexity
-
-```text
-O(n)
-```
-
-### Space Complexity
-
-```text
-O(n)
-```
-
----
-
-# Approach 3 (Optimal Approach - Sliding Window)
-
-> Applicable only when all array elements are positive.
-
-## Idea
-
-Maintain a sliding window using two pointers.
+Maintain a window using two pointers (`left` and `right`).
 
 - Expand the window by moving the right pointer.
-- If the sum becomes greater than `K`, shrink the window by moving the left pointer.
+- Add the current element to the running sum.
+- If the sum becomes greater than `K`, shrink the window by moving the left pointer until the sum becomes less than or equal to `K`.
 - Whenever the sum becomes equal to `K`, update the maximum length.
 
-### Time Complexity
+This approach works because **all array elements are positive**.
+
+---
+
+## Algorithm
+
+1. Initialize:
+   - `left = 0`
+   - `sum = 0`
+   - `maxLength = 0`
+2. Traverse the array using the right pointer.
+3. Add the current element to the sum.
+4. While `sum > K`, remove elements from the left side.
+5. If `sum == K`, update the maximum length.
+6. Return `maxLength`.
+
+---
+
+## Time Complexity
 
 ```text
 O(n)
 ```
 
-### Space Complexity
+Each pointer (`left` and `right`) moves at most `n` times.
+
+---
+
+## Space Complexity
 
 ```text
 O(1)
 ```
 
+No extra data structure is used.
+
 ---
 
-# Why Sliding Window Works?
+## Why Sliding Window Works?
 
-Since all elements are positive:
+Sliding Window works only when **all elements are positive**.
 
 - Expanding the window always increases the sum.
 - Shrinking the window always decreases the sum.
 
-Therefore, once the sum exceeds `K`, removing elements from the left is guaranteed to move the sum closer to `K`.
+Therefore, once the sum exceeds `K`, removing elements from the left will eventually reduce the sum.
 
 ---
 
-# Why Doesn't Sliding Window Work for Negative Numbers?
+## Limitation
 
-If negative numbers are present, removing an element may increase or decrease the sum unpredictably.
+This approach **does not work** if the array contains negative numbers.
 
-Hence, the sliding window technique cannot guarantee the correct answer.
-
-For arrays containing negative numbers, Prefix Sum + HashMap is the preferred approach.
+For arrays with positive and negative numbers, the optimal solution is **Prefix Sum + HashMap**.
 
 ---
 
-# Edge Cases Covered
+## Edge Cases
 
 - Empty array
 - Single element array
 - No valid subarray
-- Entire array forms the answer
+- Entire array is the answer
 - Multiple valid subarrays
-- K equals first element
-- K equals last element
+- `K` equals the first element
+- `K` equals the last element
 
 ---
 
-# Concepts Covered
+## Concepts Covered
 
 - Arrays
 - Sliding Window
 - Two Pointers
-- Prefix Sum
-- HashMap
 - Time Complexity Analysis
 - Space Complexity Analysis
 
 ---
 
-# File
+## File
 
 ```text
 longest_subarray_with_given_sum_k.cpp
@@ -181,13 +133,10 @@ longest_subarray_with_given_sum_k.cpp
 
 ---
 
-# Status
+## Status
 
-- [x] Problem Understood
-- [ ] Brute Force Implemented
-- [ ] Better Approach Understood
-- [ ] Optimal Sliding Window Implemented
-- [ ] Dry Run Completed
-- [ ] Time & Space Complexity Understood
-- [ ] Edge Cases Tested
-- [ ] Uploaded to GitHub
+- ✅ Problem Solved
+- ✅ Optimal Approach Implemented
+- ✅ Dry Run Completed
+- ✅ Time & Space Complexity Analyzed
+- ✅ Uploaded to GitHub
