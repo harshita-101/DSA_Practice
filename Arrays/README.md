@@ -24,8 +24,8 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 | 8 | Linear Search                        | Easy       | ✅ |
 | 9 | Maximum Consecutive Ones             | Easy       | ✅ |
 | 10| Single Number                        | Easy       | ✅ |
-| 11| Longest Subarray with given sum k    | Easy       | ✅ |
-
+| 11| Longest Subarray with given sum k (positive nuumber)    | Medium      | ✅ |
+| 12| Two Sum                              | Easy       | ✅ |
 
 ## Folder Structure
 
@@ -70,4 +70,7 @@ Arrays/
 ├── Q11.Longest_subarray_with_given_sum_k/
 │   ├── README.md
 │   └── Longest_subarray_with_given_sum_k.cpp
+├── Q12.Two_Sum/
+│   ├── README.md
+│   └── two_sum.cpp
 ```
