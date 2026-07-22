@@ -17,6 +17,7 @@ Each problem includes:
 | No. | Problem | Difficulty | Status |
 |:---:|---------|:----------:|:------:|
 | Q1 | Binary Search | Easy | ✅ |
+| Q2 | Search Insert Position | Easy | ✅ |
 
 ---
 
@@ -38,8 +39,23 @@ Binary_Search/
 └── Q1.Binary_Search/
     ├── README.md
     └── binary_search.cpp
+└── Q2.Search_Insert_Position/
+    ├── README.md
+    └── search_insert_position.cpp
 ```
 
+## Concepts Covered
+
+- Binary Search
+- Safe Mid Calculation
+- Search Space Reduction
+- Search Insert Position
+- Time Complexity: O(log n)
+- Space Complexity: O(1)
+
+---
+
+⭐ More Binary Search problems will be added regularly.
 ---
 
 ## Learning Outcomes
