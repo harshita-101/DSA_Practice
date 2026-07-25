@@ -19,6 +19,7 @@ Each problem includes:
 | Q1 | Binary Search | Easy | ✅ |
 | Q2 | Search Insert Position | Easy | ✅ |
 | Q3 | Find First and Last Position of Element | Medium | ✅ |
+| Q4 | Search in Rotated Sorted Array | Medium | ✅ |
 
 ---
 
@@ -47,6 +48,9 @@ Binary_Search/
 └── Q3.Find_First_and_Last_Position_of_Element_in_Sorted_Array/
     ├── README.md
     └── first_and_last_position_of_element_in_array.cpp
+└── Q4.Search_In_Rotated_Sorted_Array/
+    ├── README.md
+    └── search_in_rotated_sorted_array.cpp
 ```
 
 ## Concepts Covered
