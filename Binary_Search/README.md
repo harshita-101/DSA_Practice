@@ -20,7 +20,7 @@ Each problem includes:
 | Q2 | Search Insert Position | Easy | ✅ |
 | Q3 | Find First and Last Position of Element | Medium | ✅ |
 | Q4 | Search in Rotated Sorted Array | Medium | ✅ |
-
+| Q5 | Find Minimum In Rotated Shorted Array | Medium | ✅ |
 ---
 
 ## Topics Covered
@@ -51,6 +51,9 @@ Binary_Search/
 └── Q4.Search_In_Rotated_Sorted_Array/
     ├── README.md
     └── search_in_rotated_sorted_array.cpp
+└── Q5.Find_Minimum_In_Rotated_Sorted_Array/
+    ├── README.md
+    └── find_minimum_in_rotated_sorted_array.cpp
 ```
 
 ## Concepts Covered
