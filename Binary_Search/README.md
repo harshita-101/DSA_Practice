@@ -21,6 +21,7 @@ Each problem includes:
 | Q3 | Find First and Last Position of Element | Medium | ✅ |
 | Q4 | Search in Rotated Sorted Array | Medium | ✅ |
 | Q5 | Find Minimum In Rotated Shorted Array | Medium | ✅ |
+| Q6 | Find Number Of Times Sorted Array Rotated | Medium | ✅ |
 ---
 
 ## Topics Covered
@@ -54,6 +55,9 @@ Binary_Search/
 └── Q5.Find_Minimum_In_Rotated_Sorted_Array/
     ├── README.md
     └── find_minimum_in_rotated_sorted_array.cpp
+└── Q6.Find_Number_Of_Times_Sorted_Array_Rotated/
+    ├── README.md
+    └── find_number_of_times_sorted_array_rotated.cpp
 ```
 
 ## Concepts Covered
