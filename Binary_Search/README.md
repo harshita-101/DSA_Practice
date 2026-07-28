@@ -22,6 +22,7 @@ Each problem includes:
 | Q4 | Search in Rotated Sorted Array | Medium | ✅ |
 | Q5 | Find Minimum In Rotated Shorted Array | Medium | ✅ |
 | Q6 | Find Number Of Times Sorted Array Rotated | Medium | ✅ |
+| Q7 | Single Element in a Sorted Array | Medium | ✅ |
 ---
 
 ## Topics Covered
@@ -58,6 +59,9 @@ Binary_Search/
 └── Q6.Find_Number_Of_Times_Sorted_Array_Rotated/
     ├── README.md
     └── find_number_of_times_sorted_array_rotated.cpp
+└── Q7.Single_Element_In_Sorted_Array/
+    ├── README.md
+    └── single_element_in_sorted_array.cpp
 ```
 
 ## Concepts Covered
