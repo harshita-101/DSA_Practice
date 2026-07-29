@@ -23,6 +23,8 @@ Each problem includes:
 | Q5 | Find Minimum In Rotated Shorted Array | Medium | ✅ |
 | Q6 | Find Number Of Times Sorted Array Rotated | Medium | ✅ |
 | Q7 | Single Element in a Sorted Array | Medium | ✅ |
+| Q8 | Find Peak Element | Medium | ✅ |
+
 ---
 
 ## Topics Covered
@@ -62,6 +64,10 @@ Binary_Search/
 └── Q7.Single_Element_In_Sorted_Array/
     ├── README.md
     └── single_element_in_sorted_array.cpp
+└── Q8.Find_Peak_Element/
+    ├── README.md
+    └── find_peak_element.cpp
+
 ```
 
 ## Concepts Covered
