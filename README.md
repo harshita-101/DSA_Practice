@@ -70,7 +70,7 @@ Each topic contains:
 | Topic | Problems Solved | Status |
 |--------|----------------:|:------:|
 | Arrays | 12 | ✅ |
-| Binary Search | 8 | ✅ |
+| Binary Search | 9 | ✅ |
 | Bit Manipulation | 14 | ✅ |
 | Strings | 0 | ⏳ |
 | Linked List | 0 | ⏳ |

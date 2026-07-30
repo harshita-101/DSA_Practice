@@ -24,6 +24,7 @@ Each problem includes:
 | Q6 | Find Number Of Times Sorted Array Rotated | Medium | ✅ |
 | Q7 | Single Element in a Sorted Array | Medium | ✅ |
 | Q8 | Find Peak Element | Medium | ✅ |
+| Q9 | Sqrt(x) | Easy | ✅ |
 
 ---
 
@@ -67,6 +68,9 @@ Binary_Search/
 └── Q8.Find_Peak_Element/
     ├── README.md
     └── find_peak_element.cpp
+└── Q9.Sqrt(x)/
+    ├── README.md
+    └── Sqrt(x).cpp
 
 ```
 
