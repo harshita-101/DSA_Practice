@@ -25,6 +25,7 @@ Each problem includes:
 | Q7 | Single Element in a Sorted Array | Medium | ✅ |
 | Q8 | Find Peak Element | Medium | ✅ |
 | Q9 | Sqrt(x) | Easy | ✅ |
+| Q10 | Search a 2D Matrix | Medium | ✅ |
 
 ---
 
@@ -71,6 +72,9 @@ Binary_Search/
 └── Q9.Sqrt(x)/
     ├── README.md
     └── Sqrt(x).cpp
+└── Q10.Search_In_2D_Matrix/
+    ├── README.md
+    └── search_in_2D_matrix.cpp
 
 ```
 
@@ -78,13 +82,26 @@ Binary_Search/
 
 - Binary Search
 - Safe Mid Calculation
-- Search Space Reduction
 - Search Insert Position
-- Time Complexity: O(log n)
-- Space Complexity: O(1)
+- First & Last Occurrence
+- Rotated Sorted Array
+- Minimum in Rotated Array
+- Rotation Count
+- Single Non-Duplicate Element
+- Peak Element
+- Binary Search on Answer
+- Floor Square Root
+- 2D Matrix Binary Search
+- 2D to 1D Mapping
+- Search Space Reduction
 
 ---
 
+**Time Complexity Covered:** `O(log n)`, `O(log x)`, `O(log(m × n))`
+
+**Space Complexity Covered:** `O(1)`
+
+---
 ⭐ More Binary Search problems will be added regularly.
 ---
 
