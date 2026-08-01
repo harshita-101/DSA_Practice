@@ -16,15 +16,15 @@ Each problem includes:
 
 | No. | Problem | Difficulty | Status |
 |:---:|---------|:----------:|:------:|
-| Q1 | Binary Search | Easy | ✅ |
-| Q2 | Search Insert Position | Easy | ✅ |
-| Q3 | Find First and Last Position of Element | Medium | ✅ |
-| Q4 | Search in Rotated Sorted Array | Medium | ✅ |
-| Q5 | Find Minimum In Rotated Shorted Array | Medium | ✅ |
-| Q6 | Find Number Of Times Sorted Array Rotated | Medium | ✅ |
-| Q7 | Single Element in a Sorted Array | Medium | ✅ |
-| Q8 | Find Peak Element | Medium | ✅ |
-| Q9 | Sqrt(x) | Easy | ✅ |
+| Q01 | Binary Search | Easy | ✅ |
+| Q02 | Search Insert Position | Easy | ✅ |
+| Q03 | Find First and Last Position of Element | Medium | ✅ |
+| Q04 | Search in Rotated Sorted Array | Medium | ✅ |
+| Q05 | Find Minimum In Rotated Shorted Array | Medium | ✅ |
+| Q06 | Find Number Of Times Sorted Array Rotated | Medium | ✅ |
+| Q07 | Single Element in a Sorted Array | Medium | ✅ |
+| Q08 | Find Peak Element | Medium | ✅ |
+| Q09 | Sqrt(x) | Easy | ✅ |
 | Q10 | Search a 2D Matrix | Medium | ✅ |
 | Q11 | Search a 2D Matrix II | Medium | ✅ |
 
