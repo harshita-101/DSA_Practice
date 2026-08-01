@@ -26,6 +26,7 @@ Each problem includes:
 | Q8 | Find Peak Element | Medium | ✅ |
 | Q9 | Sqrt(x) | Easy | ✅ |
 | Q10 | Search a 2D Matrix | Medium | ✅ |
+| Q11 | Search a 2D Matrix II | Medium | ✅ |
 
 ---
 
@@ -75,6 +76,9 @@ Binary_Search/
 └── Q10.Search_In_2D_Matrix/
     ├── README.md
     └── search_in_2D_matrix.cpp
+└── Q11.Search_In_2D_Matrix_II/
+    ├── README.md
+    └── search_in_2D_matrix_II.cpp
 
 ```
 
@@ -93,15 +97,18 @@ Binary_Search/
 - Floor Square Root
 - 2D Matrix Binary Search
 - 2D to 1D Mapping
+- Matrix Traversal
+- Row-wise & Column-wise Sorted Matrix
 - Search Space Reduction
 
 ---
 
-**Time Complexity Covered:** `O(log n)`, `O(log x)`, `O(log(m × n))`
+**Time Complexity Covered:** `O(log n)`, `O(log x)`, `O(log(m × n))`, `O(rows + cols)`
 
 **Space Complexity Covered:** `O(1)`
 
 ---
+
 ⭐ More Binary Search problems will be added regularly.
 ---
 
