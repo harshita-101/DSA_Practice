@@ -27,6 +27,7 @@ Each problem includes:
 | Q09 | Sqrt(x) | Easy | ✅ |
 | Q10 | Search a 2D Matrix | Medium | ✅ |
 | Q11 | Search a 2D Matrix II | Medium | ✅ |
+| Q12 | Koko Eating Bananas | Medium | ✅ |
 
 ---
 
@@ -79,6 +80,9 @@ Binary_Search/
 └── Q11.Search_In_2D_Matrix_II/
     ├── README.md
     └── search_in_2D_matrix_II.cpp
+└── Q12.Koko_Eating_Bananas/
+    ├── README.md
+    └── koko_eating_bananas.cpp
 
 ```
 
@@ -98,16 +102,32 @@ Binary_Search/
 - 2D Matrix Binary Search
 - 2D to 1D Mapping
 - Matrix Traversal
+- Helper Function Pattern
+- Ceiling Division
 - Row-wise & Column-wise Sorted Matrix
 - Search Space Reduction
 
 ---
 
-**Time Complexity Covered:** `O(log n)`, `O(log x)`, `O(log(m × n))`, `O(rows + cols)`
 
-**Space Complexity Covered:** `O(1)`
+### Time Complexities Covered
+
+- `O(log n)`
+- `O(log x)`
+- `O(log(m × n))`
+- `O(rows + cols)`
+- `O(n × log(maxPile))`
 
 ---
+
+### Space Complexity
+
+```
+O(1)
+```
+
+---
+
 
 ⭐ More Binary Search problems will be added regularly.
 ---
