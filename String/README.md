@@ -9,6 +9,7 @@ This folder contains important String interview questions solved in C++.
 | No. | Problem | Difficulty | Status |
 |-----|-----------------------------------------------|-----------|--------|
 | Q1 | Reverse String | Easy | ✅ |
+| Q2 | Valid Palindrome | Easy | ✅ |
 
 ---
 
@@ -19,6 +20,9 @@ This folder contains important String interview questions solved in C++.
 - Two Pointer Technique
 - Swapping
 - In-place Algorithms
+- Palindrome
+- Case Conversion
+- Alphanumeric Characters
 
 ---
 
@@ -26,8 +30,8 @@ This folder contains important String interview questions solved in C++.
 
 | Operation | Complexity |
 |-----------|------------|
-| String Traversal | O(n) |
 | Reverse String | O(n) |
+| Valid Palindrome | O(n) |
 
 ---
 
@@ -36,6 +40,7 @@ This folder contains important String interview questions solved in C++.
 | Problem | Complexity |
 |---------|------------|
 | Reverse String | O(1) |
+| Valid Palindrome | O(1) |
 
 ---
 
@@ -44,9 +49,12 @@ This folder contains important String interview questions solved in C++.
 ```
 Strings/
 │
-├── Q1.Reverse_String/
+├── Q01.Reverse_String/
 │   ├── README.md
 │   └── reverse_string.cpp
+├── Q02.Valid_Palindrome/
+│   ├── README.md
+│   └── valid_palindrome.cpp
 ```
 
 ---
@@ -70,7 +78,6 @@ Topics include:
 
 ## Upcoming Problems
 
-- Q2. Valid Palindrome
 - Q3. Valid Anagram
 - Q4. Longest Common Prefix
 - Q5. Reverse Words in a String
