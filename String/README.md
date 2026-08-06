@@ -11,6 +11,7 @@ This folder contains important String interview questions solved in C++.
 | Q1 | Reverse String | Easy | ✅ |
 | Q2 | Valid Palindrome | Easy | ✅ |
 | Q3 | Valid Anagram | Easy | ✅ |
+| Q4 | Longest Common Prefix | Easy | ✅ |
 
 ---
 
@@ -37,6 +38,7 @@ This folder contains important String interview questions solved in C++.
 | Reverse String | O(n) |
 | Valid Palindrome | O(n) |
 | Valid Anagram | O(n) |
+| Longest Common Prefix | O(n × m) |
 
 ---
 
@@ -47,6 +49,7 @@ This folder contains important String interview questions solved in C++.
 | Reverse String | O(1) |
 | Valid Palindrome | O(1) |
 | Valid Anagram | O(1) |
+| Longest Common Prefix | O(1) |
 
 ---
 
@@ -64,6 +67,9 @@ Strings/
 ├── Q03.Valid_Anagram/
 │   ├── README.md
 │   └── valid_anagram.cpp
+├── Q04.Longest_Common_Prefix/
+│   ├── README.md
+│   └── longest_common_prefix.cpp
 ```
 
 ---
@@ -87,7 +93,6 @@ Topics include:
 
 ## Upcoming Problems
 
-- Q4. Longest Common Prefix
 - Q5. Reverse Words in a String
 - Q6. Isomorphic Strings
 - Q7. Rotate String
