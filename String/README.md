@@ -2,43 +2,42 @@
 
 This folder contains important String interview questions solved in C++.
 
----
-
 ## Problems Solved
 
 | No. | Problem | Difficulty | Status |
-|-----|-----------------------------------------------|-----------|--------|
+|----|----------------------------------------------|-----------|--------|
 | Q1 | Reverse String | Easy | ✅ |
 | Q2 | Valid Palindrome | Easy | ✅ |
 | Q3 | Valid Anagram | Easy | ✅ |
 | Q4 | Longest Common Prefix | Easy | ✅ |
+| Q5 | Reverse Words in a String | Medium | ✅ |
 
 ---
 
 ## Topics Covered
 
-- Character Array
+- Character Arrays
 - String Traversal
-- Two Pointer Technique
-- Swapping
-- In-place Algorithms
+- Two Pointers
 - Palindrome
-- Case Conversion
-- Alphanumeric Characters
 - Frequency Array
 - Hashing
-- Character Counting
+- Prefix Matching
+- String Reversal
+- Word Extraction
+- Handling Spaces
 
 ---
 
 ## Time Complexities Covered
 
-| Operation | Complexity |
-|-----------|------------|
+| Problem | Complexity |
+|---------|------------|
 | Reverse String | O(n) |
 | Valid Palindrome | O(n) |
 | Valid Anagram | O(n) |
 | Longest Common Prefix | O(n × m) |
+| Reverse Words in a String | O(n) |
 
 ---
 
@@ -50,6 +49,7 @@ This folder contains important String interview questions solved in C++.
 | Valid Palindrome | O(1) |
 | Valid Anagram | O(1) |
 | Longest Common Prefix | O(1) |
+| Reverse Words in a String | O(n) |
 
 ---
 
@@ -70,10 +70,12 @@ Strings/
 ├── Q04.Longest_Common_Prefix/
 │   ├── README.md
 │   └── longest_common_prefix.cpp
+├── Q05.Reverse_Words_In_A_String/
+│   ├── README.md
+│   └── reverse_words_in_a_string.cpp
 ```
 
 ---
-
 ## Learning Goals
 
 This folder covers the most frequently asked String interview questions.
@@ -83,17 +85,19 @@ Topics include:
 - Two Pointers
 - Character Arrays
 - String Manipulation
-- Sliding Window
+- Frequency Array
 - Hashing
+- Prefix Matching
 - Palindrome
 - Anagrams
+- String Reversal
+- Sliding Window
 - Pattern Matching
 
 ---
 
 ## Upcoming Problems
 
-- Q5. Reverse Words in a String
 - Q6. Isomorphic Strings
 - Q7. Rotate String
 - Q8. String Compression
@@ -102,4 +106,4 @@ Topics include:
 
 ---
 
-⭐ More String interview questions will be added regularly.
+⭐ More String interview questions and advanced string algorithms will be added regularly.
