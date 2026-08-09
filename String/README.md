@@ -11,6 +11,7 @@ This folder contains important String interview questions solved in C++.
 | Q3 | Valid Anagram | Easy | ✅ |
 | Q4 | Longest Common Prefix | Easy | ✅ |
 | Q5 | Reverse Words in a String | Medium | ✅ |
+| Q6 | Isomorphic Strings | Easy | ✅ |
 
 ---
 
@@ -38,6 +39,7 @@ This folder contains important String interview questions solved in C++.
 | Valid Anagram | O(n) |
 | Longest Common Prefix | O(n × m) |
 | Reverse Words in a String | O(n) |
+| Isomorphic String | O(n) |
 
 ---
 
@@ -50,6 +52,8 @@ This folder contains important String interview questions solved in C++.
 | Valid Anagram | O(1) |
 | Longest Common Prefix | O(1) |
 | Reverse Words in a String | O(n) |
+| Isomorphic String | O(1) |
+
 
 ---
 
@@ -73,6 +77,9 @@ Strings/
 ├── Q05.Reverse_Words_In_A_String/
 │   ├── README.md
 │   └── reverse_words_in_a_string.cpp
+├── Q06.Isomorphic_String/
+│   ├── README.md
+│   └── isomorphic_string.cpp
 ```
 
 ---
