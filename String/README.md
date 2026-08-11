@@ -18,6 +18,7 @@ The problems are selected from commonly asked coding interview questions and are
 | Q6  | [Isomorphic Strings](./Q6.Isomorphic_Strings/)               | Easy       | Two-Way Mapping               | ✅      |
 | Q7  | [Rotate String](./Q7.Rotate_String/)                         | Easy       | String Concatenation + Search | ✅      |
 | Q8  | [String Compression](./Q8.String_Compression/)               | Medium     | Two Pointers                  | ✅      |
+| Q9  | [Find the Index of the First Occurrence in a String](./Q9.Find_First_Occurrence/) | Easy | Brute Force String Matching | ✅ |
 
 ---
 
@@ -71,6 +72,14 @@ The problems are selected from commonly asked coding interview questions and are
 - Run-Length Encoding
 - Handling multi-digit character counts
 
+### 9. String Matching
+
+- Brute Force String Matching
+- Pattern Matching
+- Comparing a pattern with a substring
+- Finding the first occurrence of a pattern
+- Early termination on character mismatch
+
 ---
 
 ## Complexity Summary
@@ -85,6 +94,7 @@ The problems are selected from commonly asked coding interview questions and are
 | Isomorphic Strings        | O(n)            | O(1)             |
 | Rotate String             | O(n²)           | O(n)             |
 | String Compression        | O(n)            | O(1)             |
+| Find First Occurrence     | O(n × m)        | O(1)             |
 
 > **Note:** For Longest Common Prefix, `n` represents the number of strings and `m` represents the length of the prefix being compared.
 
@@ -110,6 +120,9 @@ The problems are selected from commonly asked coding interview questions and are
 - In-Place Modification
 - Run-Length Encoding
 - Consecutive Character Counting
+- String Matching
+- Brute Force
+- Pattern Matching
 
 ---
 
@@ -148,9 +161,15 @@ Strings/
 │   ├── README.md
 │   └── rotate_string.cpp
 │
-└── Q8.String_Compression/
-    ├── README.md
-    └── string_compression.cpp
+├── Q8.String_Compression/
+│   ├── README.md
+│   └── string_compression.cpp
+│
+├── Q9.Find_The_Index_Of_The_First_Occurrence_of_A_String/
+│   ├── README.md
+│   └── find_the_index_of_the_first_occurrence_of_a_string.cpp
+│
+
 ```
 
 ---
@@ -198,15 +217,15 @@ String
  ├── Substring Search
  │     └── Rotate String
  │
- └── In-Place Modification
-       └── String Compression
+ └── String Matching
+       └── Find First Occurrence in a String
+
 ```
 
 ---
 
 ## Upcoming Problems
 
-- Q9. Find the Index of the First Occurrence in a String
 - Q10. Longest Substring Without Repeating Characters
 - Q11. Group Anagrams
 - Q12. Longest Palindromic Substring
