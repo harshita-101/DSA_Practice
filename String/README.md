@@ -2,23 +2,24 @@
 
 This folder contains important **String Data Structure and Algorithm problems** solved in C++.
 
-The problems are selected from commonly asked coding interview questions and are focused on building strong fundamentals in string manipulation, hashing, two pointers, and pattern-based techniques.
+The problems are selected from commonly asked coding interview questions and are focused on building strong fundamentals in string manipulation, hashing, two pointers, sliding window, and pattern-based techniques.
 
 ---
 
 ## Problems Solved
 
-| No. | Problem                                                      | Difficulty | Technique                     | Status |
-| --- | ------------------------------------------------------------ | ---------- | ----------------------------- | ------ |
-| Q1  | [Reverse String](./Q1.Reverse_String/)                       | Easy       | Two Pointers                  | ✅      |
-| Q2  | [Valid Palindrome](./Q2.Valid_Palindrome/)                   | Easy       | Two Pointers                  | ✅      |
-| Q3  | [Valid Anagram](./Q3.Valid_Anagram/)                         | Easy       | Frequency Array               | ✅      |
-| Q4  | [Longest Common Prefix](./Q4.Longest_Common_Prefix/)         | Easy       | String Traversal              | ✅      |
-| Q5  | [Reverse Words in a String](./Q5.Reverse_Words_in_a_String/) | Medium     | String Manipulation           | ✅      |
-| Q6  | [Isomorphic Strings](./Q6.Isomorphic_Strings/)               | Easy       | Two-Way Mapping               | ✅      |
-| Q7  | [Rotate String](./Q7.Rotate_String/)                         | Easy       | String Concatenation + Search | ✅      |
-| Q8  | [String Compression](./Q8.String_Compression/)               | Medium     | Two Pointers                  | ✅      |
-| Q9  | [Find the Index of the First Occurrence in a String](./Q9.Find_First_Occurrence/) | Easy | Brute Force String Matching | ✅ |
+| No. | Problem | Difficulty | Technique | Status |
+| --- | --- | --- | --- | --- |
+| Q1 | [Reverse String](./Q1.Reverse_String/) | Easy | Two Pointers | ✅ |
+| Q2 | [Valid Palindrome](./Q2.Valid_Palindrome/) | Easy | Two Pointers | ✅ |
+| Q3 | [Valid Anagram](./Q3.Valid_Anagram/) | Easy | Frequency Array | ✅ |
+| Q4 | [Longest Common Prefix](./Q4.Longest_Common_Prefix/) | Easy | String Traversal | ✅ |
+| Q5 | [Reverse Words in a String](./Q5.Reverse_Words_in_a_String/) | Medium | String Manipulation | ✅ |
+| Q6 | [Isomorphic Strings](./Q6.Isomorphic_Strings/) | Easy | Two-Way Mapping | ✅ |
+| Q7 | [Rotate String](./Q7.Rotate_String/) | Easy | String Concatenation + Search | ✅ |
+| Q8 | [String Compression](./Q8.String_Compression/) | Medium | Two Pointers | ✅ |
+| Q9 | [Find the Index of the First Occurrence in a String](./Q9.Find_First_Occurrence/) | Easy | Brute Force String Matching | ✅ |
+| Q10 | [Longest Substring Without Repeating Characters](./Q10.Longest_Substring_Without_Repeating_Characters/) | Medium | Sliding Window + Hashing | ✅ |
 
 ---
 
@@ -29,27 +30,35 @@ The problems are selected from commonly asked coding interview questions and are
 - Character-by-character traversal
 - Accessing characters using indexes
 - Comparing characters
+- Traversing strings using loops
 
 ### 2. Two Pointer Technique
 
 - Reverse String
 - Valid Palindrome
 - String Compression
+- Managing left and right pointers
+- In-place modification
 
 ### 3. Frequency Array
 
 - Character frequency counting
 - Valid Anagram
+- Fixed-size frequency arrays
 
 ### 4. Hashing and Mapping
 
 - Character mapping
 - Two-way mapping
 - Isomorphic Strings
+- Duplicate character detection
+- `unordered_set`
 
 ### 5. Prefix Matching
 
 - Longest Common Prefix
+- Character comparison at the same index
+- Prefix validation
 
 ### 6. String Manipulation
 
@@ -58,18 +67,21 @@ The problems are selected from commonly asked coding interview questions and are
 - Removing extra spaces
 - String concatenation
 - In-place string compression
+- Character conversion
 
 ### 7. Substring Search
 
 - `find()`
 - `string::npos`
 - Rotation checking
+- Searching for a pattern inside a string
 
 ### 8. In-Place Modification
 
 - Modifying the input array directly
 - Read and Write pointers
 - Run-Length Encoding
+- Consecutive character counting
 - Handling multi-digit character counts
 
 ### 9. String Matching
@@ -80,25 +92,35 @@ The problems are selected from commonly asked coding interview questions and are
 - Finding the first occurrence of a pattern
 - Early termination on character mismatch
 
+### 10. Sliding Window
+
+- Maintaining a dynamic window
+- Two-pointer window expansion
+- Window contraction
+- Finding longest valid substrings
+- Detecting duplicate characters
+- Maintaining unique characters using a set
+
 ---
 
 ## Complexity Summary
 
-| Problem                   | Time Complexity | Space Complexity |
-| ------------------------- | --------------- | ---------------- |
-| Reverse String            | O(n)            | O(1)             |
-| Valid Palindrome          | O(n)            | O(1)             |
-| Valid Anagram             | O(n)            | O(1)             |
-| Longest Common Prefix     | O(n × m)        | O(1)             |
-| Reverse Words in a String | O(n)            | O(n)             |
-| Isomorphic Strings        | O(n)            | O(1)             |
-| Rotate String             | O(n²)           | O(n)             |
-| String Compression        | O(n)            | O(1)             |
-| Find First Occurrence     | O(n × m)        | O(1)             |
+| Problem | Time Complexity | Space Complexity |
+| --- | --- | --- |
+| Reverse String | O(n) | O(1) |
+| Valid Palindrome | O(n) | O(1) |
+| Valid Anagram | O(n) | O(1) |
+| Longest Common Prefix | O(n × m) | O(1) |
+| Reverse Words in a String | O(n) | O(n) |
+| Isomorphic Strings | O(n) | O(1) |
+| Rotate String | O(n²) | O(n) |
+| String Compression | O(n) | O(1) |
+| Find First Occurrence in a String | O(n × m) | O(1) |
+| Longest Substring Without Repeating Characters | O(n) | O(min(n, charset)) |
 
 > **Note:** For Longest Common Prefix, `n` represents the number of strings and `m` represents the length of the prefix being compared.
 
-> **Note:** String Compression uses an in-place Two Pointer approach with constant auxiliary space.
+> **Note:** For Q10, the `unordered_set` stores characters currently present in the sliding window.
 
 ---
 
@@ -107,8 +129,11 @@ The problems are selected from commonly asked coding interview questions and are
 - String Traversal
 - Character Arrays
 - Two Pointers
+- Sliding Window
 - Frequency Counting
 - Hashing
+
+- `unordered_set`
 - Character Mapping
 - Prefix Matching
 - String Reversal
@@ -120,8 +145,7 @@ The problems are selected from commonly asked coding interview questions and are
 - In-Place Modification
 - Run-Length Encoding
 - Consecutive Character Counting
-- String Matching
-- Brute Force
+- Duplicate Detection
 - Pattern Matching
 
 ---
@@ -165,11 +189,13 @@ Strings/
 │   ├── README.md
 │   └── string_compression.cpp
 │
-├── Q9.Find_The_Index_Of_The_First_Occurrence_of_A_String/
+├── Q9.Find_First_Occurrence/
 │   ├── README.md
-│   └── find_the_index_of_the_first_occurrence_of_a_string.cpp
+│   └── find_first_occurrence.cpp
 │
-
+└── Q10.Longest_Substring_Without_Repeating_Characters/
+    ├── README.md
+    └── longest_substring_without_repeating_characters.cpp
 ```
 
 ---
@@ -183,6 +209,7 @@ The main goals of this folder are:
 - Understand when to use Two Pointers.
 - Learn frequency-based approaches.
 - Practice hashing and character mapping.
+- Learn Sliding Window techniques.
 - Learn in-place array modification.
 - Understand consecutive character grouping.
 - Improve problem-solving and optimization skills.
@@ -217,16 +244,17 @@ String
  ├── Substring Search
  │     └── Rotate String
  │
- └── String Matching
-       └── Find First Occurrence in a String
-
+ ├── String Matching
+ │     └── Find First Occurrence in a String
+ │
+ └── Sliding Window
+       └── Longest Substring Without Repeating Characters
 ```
 
 ---
 
 ## Upcoming Problems
 
-- Q10. Longest Substring Without Repeating Characters
 - Q11. Group Anagrams
 - Q12. Longest Palindromic Substring
 - Q13. Longest Repeating Character Replacement
@@ -244,6 +272,7 @@ C++
 ├── Vectors
 ├── Hashing
 ├── Two Pointers
+├── Sliding Window
 ├── Frequency Counting
 ├── Character Mapping
 ├── Substring Searching
