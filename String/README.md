@@ -20,6 +20,7 @@ The problems are selected from commonly asked coding interview questions and are
 | Q8 | [String Compression](./Q8.String_Compression/) | Medium | Two Pointers | ✅ |
 | Q9 | [Find the Index of the First Occurrence in a String](./Q9.Find_First_Occurrence/) | Easy | Brute Force String Matching | ✅ |
 | Q10 | [Longest Substring Without Repeating Characters](./Q10.Longest_Substring_Without_Repeating_Characters/) | Medium | Sliding Window + Hashing | ✅ |
+| Q11 | [Group Anagrams](./Q11.Group_Anagrams/) | Medium | Frequency Array + Hashing | ✅ |
 
 ---
 
@@ -44,7 +45,9 @@ The problems are selected from commonly asked coding interview questions and are
 
 - Character frequency counting
 - Valid Anagram
+- Group Anagrams
 - Fixed-size frequency arrays
+- Frequency-based comparison
 
 ### 4. Hashing and Mapping
 
@@ -53,6 +56,7 @@ The problems are selected from commonly asked coding interview questions and are
 - Isomorphic Strings
 - Duplicate character detection
 - `unordered_set`
+- `unordered_map`
 
 ### 5. Prefix Matching
 
@@ -101,6 +105,14 @@ The problems are selected from commonly asked coding interview questions and are
 - Detecting duplicate characters
 - Maintaining unique characters using a set
 
+### 11. Anagram Grouping
+
+- Identifying anagrams using frequency
+- Creating frequency-based keys
+- Grouping strings using hashing
+- `unordered_map<string, vector<string>>`
+- Comparing frequency patterns
+
 ---
 
 ## Complexity Summary
@@ -117,10 +129,13 @@ The problems are selected from commonly asked coding interview questions and are
 | String Compression | O(n) | O(1) |
 | Find First Occurrence in a String | O(n × m) | O(1) |
 | Longest Substring Without Repeating Characters | O(n) | O(min(n, charset)) |
+| Group Anagrams | O(N × K) | O(N × K) |
 
 > **Note:** For Longest Common Prefix, `n` represents the number of strings and `m` represents the length of the prefix being compared.
 
 > **Note:** For Q10, the `unordered_set` stores characters currently present in the sliding window.
+
+> **Note:** For Q11, `N` represents the number of strings and `K` represents the maximum length of a string.
 
 ---
 
@@ -131,9 +146,10 @@ The problems are selected from commonly asked coding interview questions and are
 - Two Pointers
 - Sliding Window
 - Frequency Counting
+- Frequency Array
 - Hashing
-
 - `unordered_set`
+- `unordered_map`
 - Character Mapping
 - Prefix Matching
 - String Reversal
@@ -147,6 +163,7 @@ The problems are selected from commonly asked coding interview questions and are
 - Consecutive Character Counting
 - Duplicate Detection
 - Pattern Matching
+- Anagram Grouping
 
 ---
 
@@ -193,9 +210,13 @@ Strings/
 │   ├── README.md
 │   └── find_first_occurrence.cpp
 │
-└── Q10.Longest_Substring_Without_Repeating_Characters/
+├── Q10.Longest_Substring_Without_Repeating_Characters/
+│   ├── README.md
+│   └── longest_substring_without_repeating_characters.cpp
+│
+└── Q11.Group_Anagrams/
     ├── README.md
-    └── longest_substring_without_repeating_characters.cpp
+    └── group_anagrams.cpp
 ```
 
 ---
@@ -212,6 +233,7 @@ The main goals of this folder are:
 - Learn Sliding Window techniques.
 - Learn in-place array modification.
 - Understand consecutive character grouping.
+- Learn how to group strings using frequency patterns.
 - Improve problem-solving and optimization skills.
 - Prepare for coding interviews and placement tests.
 
@@ -230,7 +252,8 @@ String
  │     └── String Compression
  │
  ├── Frequency Array
- │     └── Valid Anagram
+ │     ├── Valid Anagram
+ │     └── Group Anagrams
  │
  ├── Prefix Matching
  │     └── Longest Common Prefix
@@ -247,15 +270,19 @@ String
  ├── String Matching
  │     └── Find First Occurrence in a String
  │
- └── Sliding Window
-       └── Longest Substring Without Repeating Characters
+ ├── Sliding Window
+ │     └── Longest Substring Without Repeating Characters
+ │
+ └── Hashing
+       ├── Isomorphic Strings
+       ├── Longest Substring Without Repeating Characters
+       └── Group Anagrams
 ```
 
 ---
 
 ## Upcoming Problems
 
-- Q11. Group Anagrams
 - Q12. Longest Palindromic Substring
 - Q13. Longest Repeating Character Replacement
 - Q14. Minimum Window Substring
@@ -271,6 +298,8 @@ C++
 ├── Arrays
 ├── Vectors
 ├── Hashing
+├── Unordered Map
+├── Unordered Set
 ├── Two Pointers
 ├── Sliding Window
 ├── Frequency Counting
@@ -281,7 +310,6 @@ C++
 ```
 
 ---
-
 
 ## Status
 
