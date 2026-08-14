@@ -21,6 +21,7 @@ The problems are selected from commonly asked coding interview questions and are
 | Q9 | [Find the Index of the First Occurrence in a String](./Q9.Find_First_Occurrence/) | Easy | Brute Force String Matching | ✅ |
 | Q10 | [Longest Substring Without Repeating Characters](./Q10.Longest_Substring_Without_Repeating_Characters/) | Medium | Sliding Window + Hashing | ✅ |
 | Q11 | [Group Anagrams](./Q11.Group_Anagrams/) | Medium | Frequency Array + Hashing | ✅ |
+| Q12 | [Longest Palindromic Substring](./Q12.Longest_Palindromic_Substring/) | Medium | Expand Around Center | ✅ |
 
 ---
 
@@ -40,6 +41,7 @@ The problems are selected from commonly asked coding interview questions and are
 - String Compression
 - Managing left and right pointers
 - In-place modification
+- Expanding from both sides
 
 ### 3. Frequency Array
 
@@ -72,6 +74,7 @@ The problems are selected from commonly asked coding interview questions and are
 - String concatenation
 - In-place string compression
 - Character conversion
+- Extracting substrings
 
 ### 7. Substring Search
 
@@ -79,6 +82,7 @@ The problems are selected from commonly asked coding interview questions and are
 - `string::npos`
 - Rotation checking
 - Searching for a pattern inside a string
+- Using `substr()`
 
 ### 8. In-Place Modification
 
@@ -113,6 +117,15 @@ The problems are selected from commonly asked coding interview questions and are
 - `unordered_map<string, vector<string>>`
 - Comparing frequency patterns
 
+### 12. Palindrome
+
+- Palindrome checking
+- Longest palindromic substring
+- Expand Around Center
+- Odd-length palindromes
+- Even-length palindromes
+- Two-pointer expansion
+
 ---
 
 ## Complexity Summary
@@ -130,6 +143,7 @@ The problems are selected from commonly asked coding interview questions and are
 | Find First Occurrence in a String | O(n × m) | O(1) |
 | Longest Substring Without Repeating Characters | O(n) | O(min(n, charset)) |
 | Group Anagrams | O(N × K) | O(N × K) |
+| Longest Palindromic Substring | O(n²) | O(1) |
 
 > **Note:** For Longest Common Prefix, `n` represents the number of strings and `m` represents the length of the prefix being compared.
 
@@ -156,14 +170,15 @@ The problems are selected from commonly asked coding interview questions and are
 - Word Extraction
 - Substring Search
 - String Concatenation
-- Case Conversion
-- Alphanumeric Character Checking
+- `substr()`
 - In-Place Modification
 - Run-Length Encoding
 - Consecutive Character Counting
 - Duplicate Detection
 - Pattern Matching
 - Anagram Grouping
+- Palindrome
+- Expand Around Center
 
 ---
 
@@ -214,9 +229,13 @@ Strings/
 │   ├── README.md
 │   └── longest_substring_without_repeating_characters.cpp
 │
-└── Q11.Group_Anagrams/
+├── Q11.Group_Anagrams/
+│   ├── README.md
+│   └── group_anagrams.cpp
+│
+└── Q12.Longest_Palindromic_Substring/
     ├── README.md
-    └── group_anagrams.cpp
+    └── longest_palindromic_substring.cpp
 ```
 
 ---
@@ -234,6 +253,8 @@ The main goals of this folder are:
 - Learn in-place array modification.
 - Understand consecutive character grouping.
 - Learn how to group strings using frequency patterns.
+- Understand palindrome-based techniques.
+- Learn the Expand Around Center approach.
 - Improve problem-solving and optimization skills.
 - Prepare for coding interviews and placement tests.
 
@@ -273,20 +294,24 @@ String
  ├── Sliding Window
  │     └── Longest Substring Without Repeating Characters
  │
- └── Hashing
-       ├── Isomorphic Strings
-       ├── Longest Substring Without Repeating Characters
-       └── Group Anagrams
+ ├── Hashing
+ │     ├── Isomorphic Strings
+ │     ├── Longest Substring Without Repeating Characters
+ │     └── Group Anagrams
+ │
+ └── Expand Around Center
+       └── Longest Palindromic Substring
 ```
 
 ---
 
 ## Upcoming Problems
 
-- Q12. Longest Palindromic Substring
 - Q13. Longest Repeating Character Replacement
 - Q14. Minimum Window Substring
 - Q15. String Compression II
+- Q16. Valid Parentheses
+- Q17. Palindromic Substrings
 
 ---
 
@@ -305,11 +330,15 @@ C++
 ├── Frequency Counting
 ├── Character Mapping
 ├── Substring Searching
+├── String Manipulation
+├── Palindrome
+├── Expand Around Center
 ├── In-Place Modification
 └── Run-Length Encoding
 ```
 
 ---
+
 
 ## Status
 
