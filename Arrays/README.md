@@ -26,6 +26,7 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 | 10| Single Number                        | Easy       | ✅ |
 | 11| Longest Subarray with given sum k (positive nuumber)    | Medium      | ✅ |
 | 12| Two Sum                              | Easy       | ✅ |
+| 13| Merge Sorted Array                   | Easy       | ✅ |
 
 ## Folder Structure
 
@@ -73,4 +74,7 @@ Arrays/
 ├── Q12.Two_Sum/
 │   ├── README.md
 │   └── two_sum.cpp
+├── Q12.Merge_Sorted_Array/
+│   ├── README.md
+│   └── merge_sorted_array.cpp
 ```
