@@ -28,6 +28,7 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 | 12| Two Sum                              | Easy       | ✅ |
 | 13| Merge Sorted Array                   | Easy       | ✅ |
 | 14| Contains Duplicate                   | Easy       | ✅ |
+| 15| Intersection Of Two Array            | Easy       | ✅ |
 
 ## Folder Structure
 
@@ -81,4 +82,7 @@ Arrays/
 ├── Q14.Contains_Duplicate/
 │   ├── README.md
 │   └── contains_duplicate.cpp
+├── Q15.Intersection_Of_Two_Array/
+│   ├── README.md
+│   └── intersection_of_two_array.cpp
 ```
