@@ -22,6 +22,7 @@ The problems are selected from commonly asked coding interview questions and are
 | Q10 | [Longest Substring Without Repeating Characters](./Q10.Longest_Substring_Without_Repeating_Characters/) | Medium | Sliding Window + Hashing | ✅ |
 | Q11 | [Group Anagrams](./Q11.Group_Anagrams/) | Medium | Frequency Array + Hashing | ✅ |
 | Q12 | [Longest Palindromic Substring](./Q12.Longest_Palindromic_Substring/) | Medium | Expand Around Center | ✅ |
+| Q13 | [Longest Repeating Character Replacement](./Q13.Longest_Repeating_Character_Replacement/) | Medium | Sliding Window + Frequency Array | ✅ |
 
 ---
 
@@ -48,8 +49,10 @@ The problems are selected from commonly asked coding interview questions and are
 - Character frequency counting
 - Valid Anagram
 - Group Anagrams
+- Longest Repeating Character Replacement
 - Fixed-size frequency arrays
 - Frequency-based comparison
+- Maintaining maximum character frequency
 
 ### 4. Hashing and Mapping
 
@@ -108,6 +111,9 @@ The problems are selected from commonly asked coding interview questions and are
 - Finding longest valid substrings
 - Detecting duplicate characters
 - Maintaining unique characters using a set
+- Character frequency inside a window
+- Calculating required replacements
+- Maintaining maximum frequency
 
 ### 11. Anagram Grouping
 
@@ -120,7 +126,7 @@ The problems are selected from commonly asked coding interview questions and are
 ### 12. Palindrome
 
 - Palindrome checking
-- Longest palindromic substring
+- Longest Palindromic Substring
 - Expand Around Center
 - Odd-length palindromes
 - Even-length palindromes
@@ -144,6 +150,7 @@ The problems are selected from commonly asked coding interview questions and are
 | Longest Substring Without Repeating Characters | O(n) | O(min(n, charset)) |
 | Group Anagrams | O(N × K) | O(N × K) |
 | Longest Palindromic Substring | O(n²) | O(1) |
+| Longest Repeating Character Replacement | O(n) | O(1) |
 
 > **Note:** For Longest Common Prefix, `n` represents the number of strings and `m` represents the length of the prefix being compared.
 
@@ -179,6 +186,9 @@ The problems are selected from commonly asked coding interview questions and are
 - Anagram Grouping
 - Palindrome
 - Expand Around Center
+- Maximum Frequency
+- Dynamic Window
+- Character Replacement
 
 ---
 
@@ -233,9 +243,13 @@ Strings/
 │   ├── README.md
 │   └── group_anagrams.cpp
 │
-└── Q12.Longest_Palindromic_Substring/
+├── Q12.Longest_Palindromic_Substring/
+│   ├── README.md
+│   └── longest_palindromic_substring.cpp
+│
+└── Q13.Longest_Repeating_Character_Replacement/
     ├── README.md
-    └── longest_palindromic_substring.cpp
+    └── longest_repeating_character_replacement.cpp
 ```
 
 ---
@@ -255,6 +269,7 @@ The main goals of this folder are:
 - Learn how to group strings using frequency patterns.
 - Understand palindrome-based techniques.
 - Learn the Expand Around Center approach.
+- Understand how maximum frequency helps in Sliding Window problems.
 - Improve problem-solving and optimization skills.
 - Prepare for coding interviews and placement tests.
 
@@ -274,7 +289,8 @@ String
  │
  ├── Frequency Array
  │     ├── Valid Anagram
- │     └── Group Anagrams
+ │     ├── Group Anagrams
+ │     └── Longest Repeating Character Replacement
  │
  ├── Prefix Matching
  │     └── Longest Common Prefix
@@ -292,7 +308,8 @@ String
  │     └── Find First Occurrence in a String
  │
  ├── Sliding Window
- │     └── Longest Substring Without Repeating Characters
+ │     ├── Longest Substring Without Repeating Characters
+ │     └── Longest Repeating Character Replacement
  │
  ├── Hashing
  │     ├── Isomorphic Strings
@@ -307,11 +324,11 @@ String
 
 ## Upcoming Problems
 
-- Q13. Longest Repeating Character Replacement
 - Q14. Minimum Window Substring
 - Q15. String Compression II
 - Q16. Valid Parentheses
 - Q17. Palindromic Substrings
+- Q18. Encode and Decode Strings
 
 ---
 
@@ -333,13 +350,12 @@ C++
 ├── String Manipulation
 ├── Palindrome
 ├── Expand Around Center
+├── Maximum Frequency
 ├── In-Place Modification
 └── Run-Length Encoding
 ```
 
 ---
-
-
 ## Status
 
 🚀 **In Progress**
