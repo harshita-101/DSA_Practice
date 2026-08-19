@@ -29,6 +29,7 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 | 13| Merge Sorted Array                   | Easy       | ✅ |
 | 14| Contains Duplicate                   | Easy       | ✅ |
 | 15| Intersection Of Two Array            | Easy       | ✅ |
+| 16| Matrix Diagonal Sum                  | Easy       | ✅ |
 
 ## Folder Structure
 
@@ -85,4 +86,7 @@ Arrays/
 ├── Q15.Intersection_Of_Two_Array/
 │   ├── README.md
 │   └── intersection_of_two_array.cpp
+├── Q16.Matrix_Diagonal_Sum/
+│   ├── README.md
+│   └── matrix_diagonal_sum.cpp
 ```
