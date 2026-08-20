@@ -30,6 +30,7 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 | 14| Contains Duplicate                   | Easy       | ✅ |
 | 15| Intersection Of Two Array            | Easy       | ✅ |
 | 16| Matrix Diagonal Sum                  | Easy       | ✅ |
+| 17| Spiral Matrix                        | Medium     | ✅ |
 
 ## Folder Structure
 
@@ -89,4 +90,7 @@ Arrays/
 ├── Q16.Matrix_Diagonal_Sum/
 │   ├── README.md
 │   └── matrix_diagonal_sum.cpp
+├── Q17.Spiral_Matrix/
+│   ├── README.md
+│   └── spiral_matrix.cpp
 ```

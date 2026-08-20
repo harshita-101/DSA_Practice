@@ -69,7 +69,7 @@ Each topic contains:
 
 | Topic | Problems Solved | Status |
 |--------|----------------:|:------:|
-| Arrays | 16 | ✅ |
+| Arrays | 17 | ✅ |
 | Binary Search | 12 | ✅ |
 | Bit Manipulation | 14 | ✅ |
 | Strings | 13 | ✅ |
