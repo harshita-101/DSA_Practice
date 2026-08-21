@@ -31,6 +31,7 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 | 15| Intersection Of Two Array            | Easy       | ✅ |
 | 16| Matrix Diagonal Sum                  | Easy       | ✅ |
 | 17| Spiral Matrix                        | Medium     | ✅ |
+| 18| Find Missing And Reopeating Value    | Easy       | ✅ |
 
 ## Folder Structure
 
@@ -93,4 +94,7 @@ Arrays/
 ├── Q17.Spiral_Matrix/
 │   ├── README.md
 │   └── spiral_matrix.cpp
+├── Q18.Find_Missing_And_Repeating_Value/
+│   ├── README.md
+│   └── find_missing_and_repeating_value.cpp
 ```
