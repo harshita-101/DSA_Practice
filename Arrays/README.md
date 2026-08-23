@@ -33,6 +33,7 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 | 17| Spiral Matrix                        | Medium     | ✅ |
 | 18| Find Missing And Reopeating Value    | Easy       | ✅ |
 | 19| 3 Sum                                | Medium     | ✅ |
+| 20| 4 Sum                                | Medium     | ✅ |
 
 ## Folder Structure
 
@@ -101,4 +102,7 @@ Arrays/
 ├── Q19.3_Sum/
 │   ├── README.md
 │   └── 3_sum.cpp
+├── Q20.4_Sum/
+│   ├── README.md
+│   └── 4_sum.cpp
 ```
