@@ -28,6 +28,7 @@ Each problem includes:
 | Q10 | Search a 2D Matrix | Medium | ✅ |
 | Q11 | Search a 2D Matrix II | Medium | ✅ |
 | Q12 | Koko Eating Bananas | Medium | ✅ |
+| Q13 | Search in Rotated Sorted Array 2 | Medium | ✅ |
 
 ---
 
@@ -83,6 +84,9 @@ Binary_Search/
 └── Q12.Koko_Eating_Bananas/
     ├── README.md
     └── koko_eating_bananas.cpp
+└── Q13.Search_In_Rotated_Sorted_Array_2/
+    ├── README.md
+    └── search_in_rotated_sorted_array_2.cpp
 
 ```
 
