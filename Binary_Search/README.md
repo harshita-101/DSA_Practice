@@ -29,6 +29,7 @@ Each problem includes:
 | Q11 | Search a 2D Matrix II | Medium | ✅ |
 | Q12 | Koko Eating Bananas | Medium | ✅ |
 | Q13 | Search in Rotated Sorted Array 2 | Medium | ✅ |
+| Q14 | Find Minimum In Rotated Shorted Array 2| Hard | ✅ |
 
 ---
 
@@ -87,7 +88,9 @@ Binary_Search/
 └── Q13.Search_In_Rotated_Sorted_Array_2/
     ├── README.md
     └── search_in_rotated_sorted_array_2.cpp
-
+└── Q14.Find_Minimum_In_Rotated_Sorted_Array_2/
+    ├── README.md
+    └── find_minimum_in_rotated_sorted_array_2.cpp
 ```
 
 ## Concepts Covered
