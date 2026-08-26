@@ -16,7 +16,7 @@ Each problem includes:
 
 | No. | Problem | Difficulty | Status |
 |:---:|---------|:----------:|:------:|
-| Q01 | Binary Search | Easy | ✅ |
+| Q01 | Binary Search | Easy  | ✅ 
 | Q02 | Search Insert Position | Easy | ✅ |
 | Q03 | Find First and Last Position of Element | Medium | ✅ |
 | Q04 | Search in Rotated Sorted Array | Medium | ✅ |
@@ -30,6 +30,7 @@ Each problem includes:
 | Q12 | Koko Eating Bananas | Medium | ✅ |
 | Q13 | Search in Rotated Sorted Array 2 | Medium | ✅ |
 | Q14 | Find Minimum In Rotated Shorted Array 2| Hard | ✅ |
+| Q15 | Valid Perfect Square | Easy  | ✅ |
 
 ---
 
@@ -91,6 +92,9 @@ Binary_Search/
 └── Q14.Find_Minimum_In_Rotated_Sorted_Array_2/
     ├── README.md
     └── find_minimum_in_rotated_sorted_array_2.cpp
+└── Q15.Valid_Perfect_Square/
+    ├── README.md
+    └── valid_perfect_square.cpp
 ```
 
 ## Concepts Covered
