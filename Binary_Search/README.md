@@ -31,6 +31,7 @@ Each problem includes:
 | Q13 | Search in Rotated Sorted Array 2 | Medium | ✅ |
 | Q14 | Find Minimum In Rotated Shorted Array 2| Hard | ✅ |
 | Q15 | Valid Perfect Square | Easy  | ✅ |
+| Q16 | Kth Missing Positive Number | Easy  | ✅ |
 
 ---
 
@@ -95,6 +96,9 @@ Binary_Search/
 └── Q15.Valid_Perfect_Square/
     ├── README.md
     └── valid_perfect_square.cpp
+└── Q16.Kth_Missing_Positive_No/
+    ├── README.md
+    └── kth_missing_positive_no.cpp
 ```
 
 ## Concepts Covered
