@@ -33,6 +33,7 @@ Each problem includes:
 | Q15 | Valid Perfect Square | Easy  | ✅ |
 | Q16 | Kth Missing Positive Number | Easy  | ✅ |
 | Q17 | Find A Small Divisor Given a Threshold | Medium  | ✅ |
+| Q18 | Capacity to Ship Pacakages Within Days | Medium  | ✅ |
 
 ---
 
@@ -103,6 +104,9 @@ Binary_Search/
 └── Q17.Find_A_Small_Divisor_Given_A_Threshold/
     ├── README.md
     └── find_a_small_divisor_given_a_threshold.cpp
+└── Q18.Capacity_To_Ship_Pacakages_Within_D_Days/
+    ├── README.md
+    └── capacity_to_ship_pacakages_within_d_days.cpp
 ```
 
 ## Concepts Covered
