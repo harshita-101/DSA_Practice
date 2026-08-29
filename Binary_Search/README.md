@@ -34,6 +34,7 @@ Each problem includes:
 | Q16 | Kth Missing Positive Number | Easy  | ✅ |
 | Q17 | Find A Small Divisor Given a Threshold | Medium  | ✅ |
 | Q18 | Capacity to Ship Pacakages Within Days | Medium  | ✅ |
+| Q19 | Minimum Number of Days to make M bouquets | Medium  | ✅ |
 
 ---
 
@@ -107,6 +108,9 @@ Binary_Search/
 └── Q18.Capacity_To_Ship_Pacakages_Within_D_Days/
     ├── README.md
     └── capacity_to_ship_pacakages_within_d_days.cpp
+└── Q19.Minimum_Number_Of_Days_To_Make_M_Bouquets/
+    ├── README.md
+    └── minimum_no_of_days_to_make_m_bouquets.cpp
 ```
 
 ## Concepts Covered
