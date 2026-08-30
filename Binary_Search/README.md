@@ -35,6 +35,7 @@ Each problem includes:
 | Q17 | Find A Small Divisor Given a Threshold | Medium  | ✅ |
 | Q18 | Capacity to Ship Pacakages Within Days | Medium  | ✅ |
 | Q19 | Minimum Number of Days to make M bouquets | Medium  | ✅ |
+| Q20 | Magnectic Force between Two Balls | Medium  | ✅ |
 
 ---
 
@@ -111,6 +112,9 @@ Binary_Search/
 └── Q19.Minimum_Number_Of_Days_To_Make_M_Bouquets/
     ├── README.md
     └── minimum_no_of_days_to_make_m_bouquets.cpp
+└── Q20.Magnectic_Force_Btw_Two_Balls/
+    ├── README.md
+    └── magnectic_force_btw_two_balls.cpp
 ```
 
 ## Concepts Covered
