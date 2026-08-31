@@ -36,6 +36,7 @@ Each problem includes:
 | Q18 | Capacity to Ship Pacakages Within Days | Medium  | ✅ |
 | Q19 | Minimum Number of Days to make M bouquets | Medium  | ✅ |
 | Q20 | Magnectic Force between Two Balls | Medium  | ✅ |
+| Q21 | Split Array Largest Sum | Hard  | ✅ |
 
 ---
 
@@ -115,6 +116,9 @@ Binary_Search/
 └── Q20.Magnectic_Force_Btw_Two_Balls/
     ├── README.md
     └── magnectic_force_btw_two_balls.cpp
+└── Q21.Split_Array_Largest_Sum/
+    ├── README.md
+    └── split_array_largest_sum.cpp
 ```
 
 ## Concepts Covered
