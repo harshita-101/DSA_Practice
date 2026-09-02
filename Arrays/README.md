@@ -34,6 +34,7 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 | 18| Find Missing And Reopeating Value    | Easy       | ✅ |
 | 19| 3 Sum                                | Medium     | ✅ |
 | 20| 4 Sum                                | Medium     | ✅ |
+| 21| Two Sum 2 Sorted Array               | Medium     | ✅ |
 
 ## Folder Structure
 
@@ -105,4 +106,7 @@ Arrays/
 ├── Q20.4_Sum/
 │   ├── README.md
 │   └── 4_sum.cpp
+├── Q20.Two_Sum_2_Sorted_Array/
+│   ├── README.md
+│   └── two_sum_2_sorted_array.cpp
 ```
