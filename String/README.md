@@ -30,6 +30,7 @@ Each problem includes:
 | Q12 | Longest Palindromic Substring | Medium | ✅ |
 | Q13 | Longest Repeating Character Replacement | Medium | ✅ |
 | Q14 | String to Integer (atoi) | Medium | ✅ |
+| Q15 | First Unique Character in a String | Easy | ✅ |
 
 ---
 
@@ -109,3 +110,7 @@ Strings/
 └── Q14.String_to_Integer_atoi/
     ├── README.md
     └── string_to_integer_atoi.cpp
+
+└── Q15.First_Unique_Char_In_A_String/
+    ├── README.md
+    └── first_unique_char_in_a_string.cpp
