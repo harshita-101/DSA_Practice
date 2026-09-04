@@ -31,6 +31,7 @@ Each problem includes:
 | Q13 | Longest Repeating Character Replacement | Medium | ✅ |
 | Q14 | String to Integer (atoi) | Medium | ✅ |
 | Q15 | First Unique Character in a String | Easy | ✅ |
+| Q16 | Find All anagram index in a String | Medium | ✅ |
 
 ---
 
@@ -114,3 +115,7 @@ Strings/
 └── Q15.First_Unique_Char_In_A_String/
     ├── README.md
     └── first_unique_char_in_a_string.cpp
+
+└── Q16.Find_All_Anagram_Index_In_A_String/
+    ├── README.md
+    └── find_all_anagram_index_in_a_string.cpp
