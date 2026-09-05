@@ -24,6 +24,11 @@ int myAtoi(string s){
     }
     while(i <n && ('0'<=s[i] && s[i]<='9')){
         int value = s[i] - '0';
+        if (num > INT_MAX / 10 || (num == INT_MAX / 10 && value > (sign == 1 ? 7 : 8))) {
+        
+            return (sign == 1) ? INT_MAX : INT_MIN;
+        }
+        
         num = num * 10 + value;
         i++;
     }
