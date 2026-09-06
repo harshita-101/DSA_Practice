@@ -32,6 +32,7 @@ Each problem includes:
 | Q14 | String to Integer (atoi) | Medium | ✅ |
 | Q15 | First Unique Character in a String | Easy | ✅ |
 | Q16 | Find All anagram index in a String | Medium | ✅ |
+| Q17 | Roman To Integer | Easy | ✅ |
 
 ---
 
@@ -119,3 +120,7 @@ Strings/
 └── Q16.Find_All_Anagram_Index_In_A_String/
     ├── README.md
     └── find_all_anagram_index_in_a_string.cpp
+
+└── Q16.Roman_To_Integer/
+    ├── README.md
+    └── roman_to_integer.cpp
