@@ -35,6 +35,7 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 | 19| 3 Sum                                | Medium     | ✅ |
 | 20| 4 Sum                                | Medium     | ✅ |
 | 21| Two Sum 2 Sorted Array               | Medium     | ✅ |
+| 22| Remove Duplicates from Sorted Array 2              | Medium     | ✅ |
 
 ## Folder Structure
 
@@ -106,7 +107,10 @@ Arrays/
 ├── Q20.4_Sum/
 │   ├── README.md
 │   └── 4_sum.cpp
-├── Q20.Two_Sum_2_Sorted_Array/
+├── Q21.Two_Sum_2_Sorted_Array/
 │   ├── README.md
 │   └── two_sum_2_sorted_array.cpp
+├── Q22.Remove_Duplicates_From_Sorted_Array_2/
+│   ├── README.md
+│   └── remove_duplicates_from_sorted_array_2.cpp
 ```
