@@ -33,6 +33,7 @@ Each problem includes:
 | Q15 | First Unique Character in a String | Easy | ✅ |
 | Q16 | Find All anagram index in a String | Medium | ✅ |
 | Q17 | Roman To Integer | Easy | ✅ |
+| Q18 | Fizz Buzz | Easy | ✅ |
 
 ---
 
@@ -121,6 +122,10 @@ Strings/
     ├── README.md
     └── find_all_anagram_index_in_a_string.cpp
 
-└── Q16.Roman_To_Integer/
+└── Q17.Roman_To_Integer/
     ├── README.md
     └── roman_to_integer.cpp
+
+└── Q18.Fizz_Buzz/
+    ├── README.md
+    └── fizz_buzz.cpp
