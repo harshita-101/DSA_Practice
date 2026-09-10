@@ -34,6 +34,7 @@ Each problem includes:
 | Q16 | Find All anagram index in a String | Medium | ✅ |
 | Q17 | Roman To Integer | Easy | ✅ |
 | Q18 | Fizz Buzz | Easy | ✅ |
+| Q19 | Excel Sheet Column Number | Easy | ✅ |
 
 ---
 
@@ -129,3 +130,7 @@ Strings/
 └── Q18.Fizz_Buzz/
     ├── README.md
     └── fizz_buzz.cpp
+
+└── Q19.Excel_Sheet_Column_Number/
+    ├── README.md
+    └── excel_sheet_column_number.cpp
