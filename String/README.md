@@ -35,6 +35,7 @@ Each problem includes:
 | Q17 | Roman To Integer | Easy | ✅ |
 | Q18 | Fizz Buzz | Easy | ✅ |
 | Q19 | Excel Sheet Column Number | Easy | ✅ |
+| Q19 | Basic Calculator | Hard | ✅ |
 
 ---
 
@@ -134,3 +135,7 @@ Strings/
 └── Q19.Excel_Sheet_Column_Number/
     ├── README.md
     └── excel_sheet_column_number.cpp
+
+└── Q20.Basic_Calculator/
+    ├── README.md
+    └── basic_calculator.cpp
