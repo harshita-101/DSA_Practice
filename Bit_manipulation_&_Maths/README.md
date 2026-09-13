@@ -20,6 +20,7 @@ This folder contains C++ solutions for Bit Manipulation problems.
 | 12 | Find Missing Number using XOR | ✅ |
 | 13 | Find Rightmost Set Bit | ✅ |
 | 14 | Remove Rightmost Set Bit | ✅ |
+| 15 | Integer to Roman | ✅ |
 
 ---
 
