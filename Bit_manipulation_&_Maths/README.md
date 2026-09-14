@@ -21,6 +21,7 @@ This folder contains C++ solutions for Bit Manipulation problems.
 | 13 | Find Rightmost Set Bit | ✅ |
 | 14 | Remove Rightmost Set Bit | ✅ |
 | 15 | Integer to Roman | ✅ |
+| 16 | Divide Two Integers| ✅ |
 
 ---
 
@@ -51,20 +52,3 @@ Practice Bit Manipulation problems to strengthen problem-solving skills and buil
 
 ---
 
-### 📈 Progress
-
-- Solved: **1**
-- Solved: **2**
-- Solved: **3**
-- Solved: **4** 
-- Solved: **5**
-- Solved: **6**
-- Solved: **7**
-- Solved: **8**
-- Solved: **9**
-- Solved: **10**
-- Solved: **11**
-- Solved: **12**
-- Solved: **13**
-- Solved: **14**
-- Remaining: More coming soon...
