@@ -36,6 +36,7 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 | 20| 4 Sum                                | Medium     | ✅ |
 | 21| Two Sum 2 Sorted Array               | Medium     | ✅ |
 | 22| Remove Duplicates from Sorted Array 2              | Medium     | ✅ |
+| 18| Find Missing Positive   | Hard      | ✅ |
 
 ## Folder Structure
 
@@ -113,4 +114,7 @@ Arrays/
 ├── Q22.Remove_Duplicates_From_Sorted_Array_2/
 │   ├── README.md
 │   └── remove_duplicates_from_sorted_array_2.cpp
+├── Q23.Find_Missing_Positive/
+│   ├── README.md
+│   └── find_missing_positive.cpp
 ```
