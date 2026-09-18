@@ -73,7 +73,7 @@ Each topic contains:
 | Binary Search | 21 | ✅ |
 | Bit Manipulation and maths| 16 | ✅ |
 | Strings | 20 | ✅ |
-| Linked List | 2 | ⏳ |
+| Linked List | 3 | ⏳ |
 | Stack | 0 | ⏳ |
 | Queue | 0 | ⏳ |
 | Trees | 0 | ⏳ |

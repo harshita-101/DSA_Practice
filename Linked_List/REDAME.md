@@ -22,6 +22,8 @@ This folder contains my solutions to Linked List problems for Data Structures an
 | ---- | ------------------- | ---------- | ------ |
 | 1    | Reverse Linked List | Easy       | ✅      |
 | 2    | Delete Node In Linked List | Medium       | ✅      |
+| 3    | Middle of the Linked List | Easy       | ✅      |
+
 
 ## Complexity
 
@@ -39,7 +41,10 @@ Linked_List/
 ├── Q01.Reverse_Linked_List/
 │   ├── README.md
 │   └── reverse_linked_list.cpp
-├── Q01.Delete_Node_In_Linked_List/
+├── Q02.Delete_Node_In_Linked_List/
 │   ├── README.md
 │   └── delete_node_in_linked_list.cpp
+├── Q03.Middle_Of_The_Linked_List/
+│   ├── README.md
+│   └── middle_of_the_linked_list.cpp
 
