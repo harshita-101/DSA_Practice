@@ -23,6 +23,7 @@ This folder contains my solutions to Linked List problems for Data Structures an
 | 1    | Reverse Linked List | Easy       | ✅      |
 | 2    | Delete Node In Linked List | Medium       | ✅      |
 | 3    | Middle of the Linked List | Easy       | ✅      |
+| 3    | Merge Two Sorted Lists | Easy       | ✅      |
 
 
 ## Complexity
@@ -47,4 +48,7 @@ Linked_List/
 ├── Q03.Middle_Of_The_Linked_List/
 │   ├── README.md
 │   └── middle_of_the_linked_list.cpp
+├── Q03.Merge_Two_Sorted_Lists/
+│   ├── README.md
+│   └── merge_two_sorted_lists.cpp
 
