@@ -71,7 +71,7 @@ Each topic contains:
 |--------|----------------:|:------:|
 | Arrays | 24 | ✅ |
 | Binary Search | 21 | ✅ |
-| Bit Manipulation and maths| 17 | ✅ |
+| Bit Manipulation and maths| 18 | ✅ |
 | Strings | 20 | ✅ |
 | Linked List | 4 | ⏳ |
 | Stack | 0 | ⏳ |

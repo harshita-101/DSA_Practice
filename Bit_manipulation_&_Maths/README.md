@@ -23,6 +23,7 @@ This folder contains C++ solutions for Bit Manipulation problems.
 | 15 | Integer to Roman | ✅ |
 | 16 | Divide Two Integers| ✅ |
 | 17 | Flipping an Image| ✅ |
+| 18 | Plus One | ✅ |
 
 ---
 

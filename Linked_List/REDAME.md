@@ -23,7 +23,7 @@ This folder contains my solutions to Linked List problems for Data Structures an
 | 1    | Reverse Linked List | Easy       | ✅      |
 | 2    | Delete Node In Linked List | Medium       | ✅      |
 | 3    | Middle of the Linked List | Easy       | ✅      |
-| 3    | Merge Two Sorted Lists | Easy       | ✅      |
+| 4    | Merge Two Sorted Lists | Easy       | ✅      |
 
 
 ## Complexity
