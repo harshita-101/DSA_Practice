@@ -38,6 +38,7 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 | 22| Remove Duplicates from Sorted Array 2              | Medium     | ✅ |
 | 23| Find Missing Positive   | Hard      | ✅ |
 | 24| Median of Two Sorted Array   | Hard      | ✅ |
+| 24| Sort an Array   | Medium     | ✅ |
 
 
 ## Folder Structure
@@ -119,7 +120,10 @@ Arrays/
 ├── Q23.Find_Missing_Positive/
 │   ├── README.md
 │   └── find_missing_positive.cpp
-├── Q23.Median_Of_Two_Sorted_Array/
+├── Q24.Median_Of_Two_Sorted_Array/
 │   ├── README.md
 │   └── median_of_two_sorted_array.cpp
+├── Q25.Sort_An_Array/
+│   ├── README.md
+│   └── sort_an_array.cpp
 ```
