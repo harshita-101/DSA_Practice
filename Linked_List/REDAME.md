@@ -24,6 +24,7 @@ This folder contains my solutions to Linked List problems for Data Structures an
 | 2    | Delete Node In Linked List | Medium       | ✅      |
 | 3    | Middle of the Linked List | Easy       | ✅      |
 | 4    | Merge Two Sorted Lists | Easy       | ✅      |
+| 5    | Detect Cycle in Linked List | Easy       | ✅      |
 
 
 ## Complexity
@@ -48,7 +49,10 @@ Linked_List/
 ├── Q03.Middle_Of_The_Linked_List/
 │   ├── README.md
 │   └── middle_of_the_linked_list.cpp
-├── Q03.Merge_Two_Sorted_Lists/
+├── Q04.Merge_Two_Sorted_Lists/
 │   ├── README.md
 │   └── merge_two_sorted_lists.cpp
+├── Q05.Detect_Cycle_In_Linlked_List/
+│   ├── README.md
+│   └── detect_cycle_in_linked_list.cpp
 
