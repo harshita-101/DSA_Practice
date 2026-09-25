@@ -25,6 +25,7 @@ This folder contains my solutions to Linked List problems for Data Structures an
 | 3    | Middle of the Linked List | Easy       | ✅      |
 | 4    | Merge Two Sorted Lists | Easy       | ✅      |
 | 5    | Detect Cycle in Linked List | Easy       | ✅      |
+| 6    | Detect Cycle in Linked List 2| Medium       | ✅      |
 
 
 ## Complexity
@@ -55,4 +56,7 @@ Linked_List/
 ├── Q05.Detect_Cycle_In_Linlked_List/
 │   ├── README.md
 │   └── detect_cycle_in_linked_list.cpp
+├── Q06.Detect_Cycle_In_Linlked_List_2/
+│   ├── README.md
+│   └── detect_cycle_in_linked_list_2.cpp
 
