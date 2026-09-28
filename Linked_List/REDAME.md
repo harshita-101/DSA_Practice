@@ -28,6 +28,7 @@ This folder contains my solutions to Linked List problems for Data Structures an
 | 6    | Detect Cycle in Linked List 2| Medium       | ✅   |
 | 7    | Remove Linked List Element| Easy      | ✅   |
 | 8    | Copy List with Random Number| Medium      | ✅   |
+| 9    | Remove nth Node from End of List | Medium      | ✅   |
 
 
 ## Complexity
@@ -67,4 +68,7 @@ Linked_List/
 ├── Q08.Copy_List_With_Random_Number/
 │   ├── README.md
 │   └── copy_list_with_random_number.cpp
+├── Q09.Remove_Nth_Node_From_End_Of_List/
+│   ├── README.md
+│   └── remove_nth_node_from_end_of_list.cpp
 
