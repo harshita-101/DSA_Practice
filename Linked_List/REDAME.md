@@ -30,6 +30,7 @@ This folder contains my solutions to Linked List problems for Data Structures an
 | 8    | Copy List with Random Number| Medium      | ✅   |
 | 9    | Remove nth Node from End of List | Medium      | ✅   |
 | 10   | Intersection of Two Linked Lists | Easy   | ✅   |
+| 11   | Palindrome Linked List | Easy   | ✅   |
 
 
 ## Complexity
@@ -75,4 +76,7 @@ Linked_List/
 ├── Q10.Intersection_Of_Two_Linked_Lists/
 │   ├── README.md
 │   └── intersection_of_two_linked_list.cpp
+├── Q11.Palindrome_Linked_List/
+│   ├── README.md
+│   └── palindrome_linked_list.cpp
 
