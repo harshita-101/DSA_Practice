@@ -31,6 +31,7 @@ This folder contains my solutions to Linked List problems for Data Structures an
 | 9    | Remove nth Node from End of List | Medium      | ✅   |
 | 10   | Intersection of Two Linked Lists | Easy   | ✅   |
 | 11   | Palindrome Linked List | Easy   | ✅   |
+| 12   | Add Two Numbers | Medium  | ✅   |
 
 
 ## Complexity
@@ -79,4 +80,7 @@ Linked_List/
 ├── Q11.Palindrome_Linked_List/
 │   ├── README.md
 │   └── palindrome_linked_list.cpp
+├── Q12.Add_Two_Numbers/
+│   ├── README.md
+│   └── add_two_numbers.cpp
 
