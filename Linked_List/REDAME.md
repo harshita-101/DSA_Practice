@@ -32,6 +32,7 @@ This folder contains my solutions to Linked List problems for Data Structures an
 | 10   | Intersection of Two Linked Lists | Easy   | ✅   |
 | 11   | Palindrome Linked List | Easy   | ✅   |
 | 12   | Add Two Numbers | Medium  | ✅   |
+| 13   | Odd Even Linked List | Medium  | ✅   |
 
 
 ## Complexity
@@ -83,4 +84,7 @@ Linked_List/
 ├── Q12.Add_Two_Numbers/
 │   ├── README.md
 │   └── add_two_numbers.cpp
+├── Q13.Odd_Even_Linked_List/
+│   ├── README.md
+│   └── odd_even_linked_list.cpp
 
