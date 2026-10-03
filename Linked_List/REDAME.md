@@ -33,6 +33,7 @@ This folder contains my solutions to Linked List problems for Data Structures an
 | 11   | Palindrome Linked List | Easy   | ✅   |
 | 12   | Add Two Numbers | Medium  | ✅   |
 | 13   | Odd Even Linked List | Medium  | ✅   |
+| 14   | Sort List | Medium  | ✅   |
 
 
 ## Complexity
@@ -87,4 +88,7 @@ Linked_List/
 ├── Q13.Odd_Even_Linked_List/
 │   ├── README.md
 │   └── odd_even_linked_list.cpp
+├── Q14.Sort_List/
+│   ├── README.md
+│   └── sort_list.cpp
 
