@@ -34,7 +34,8 @@ This folder contains my solutions to Linked List problems for Data Structures an
 | 12   | Add Two Numbers | Medium  | ✅   |
 | 13   | Odd Even Linked List | Medium  | ✅   |
 | 14   | Sort List | Medium  | ✅   |
-| 15   | Remove Duplicates from Sorted List | Medium  | ✅   |
+| 15   | Remove Duplicates from Sorted List |Easy  | ✅   |
+| 16   | Remove Duplicates from Sorted List 2| Medium  | ✅   |
 
 
 ## Complexity
@@ -95,4 +96,7 @@ Linked_List/
 ├── Q15.Remove_Duplicates_From_Sorted_List/
 │   ├── README.md
 │   └── remove_duplicates_from_sorted_list.cpp
+├── Q16.Remove_Duplicates_From_Sorted_List_2/
+│   ├── README.md
+│   └── remove_duplicates_from_sorted_list_2.cpp
 
