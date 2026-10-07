@@ -36,6 +36,7 @@ This folder contains my solutions to Linked List problems for Data Structures an
 | 14   | Sort List | Medium  | ✅   |
 | 15   | Remove Duplicates from Sorted List |Easy  | ✅   |
 | 16   | Remove Duplicates from Sorted List 2| Medium  | ✅   |
+| 17   | Reverse Linked List 2| Medium  | ✅   |
 
 
 ## Complexity
@@ -99,4 +100,6 @@ Linked_List/
 ├── Q16.Remove_Duplicates_From_Sorted_List_2/
 │   ├── README.md
 │   └── remove_duplicates_from_sorted_list_2.cpp
-
+├── Q17.Reverse_Linked_List_2/
+│   ├── README.md
+│   └── reverse_linked_list_2.cpp
