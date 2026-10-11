@@ -39,7 +39,7 @@ This folder contains my solutions to Linked List problems for Data Structures an
 | 17   | Reverse Linked List 2| Medium  | ✅   |
 | 18   | Reorder List| Medium  | ✅   |
 | 19   | Rotate List| Medium  | ✅   |
-
+| 20   | Add Two Numbers 2 | Medium  | ✅   |
 
 ## Complexity
 
@@ -111,3 +111,6 @@ Linked_List/
 ├── Q19.Rotate_List/
 │   ├── README.md
 │   └── rotate_list.cpp
+├── Q20.Add_Two_Numbers_2/
+│   ├── README.md
+│   └── add_two_numbers_2.cpp
