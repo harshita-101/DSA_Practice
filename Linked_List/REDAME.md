@@ -40,6 +40,7 @@ This folder contains my solutions to Linked List problems for Data Structures an
 | 18   | Reorder List| Medium  | ✅   |
 | 19   | Rotate List| Medium  | ✅   |
 | 20   | Add Two Numbers 2 | Medium  | ✅   |
+| 21   | Reverse Nodes in k Group | Medium  | ✅   |
 
 ## Complexity
 
@@ -114,3 +115,6 @@ Linked_List/
 ├── Q20.Add_Two_Numbers_2/
 │   ├── README.md
 │   └── add_two_numbers_2.cpp
+├── Q21.Reverse_Nodes_In_K_Group/
+│   ├── README.md
+│   └── reverse_nodes_in_k_group.cpp
