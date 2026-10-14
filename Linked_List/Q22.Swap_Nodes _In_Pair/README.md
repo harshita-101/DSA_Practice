@@ -7,6 +7,7 @@ You must swap the nodes themselves, not just their values. If the list contains 
 
 **LeetCode:** [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
 
+
 ## Example 1
 
 **Input:**
@@ -38,6 +39,7 @@ head = [1,2,3,4,5]
 **Explanation:**
 The first four nodes are swapped in pairs. The last node `5` remains unchanged.
 
+
 ## Approach: Iterative Pointer Manipulation
 
 1. Handle edge cases where the list is empty or contains only one node.
@@ -52,12 +54,46 @@ The first four nodes are swapped in pairs. The last node `5` remains unchanged.
 7. Update `prevPair` and move `first` to the next pair.
 8. Return the new head.
 
+
+## Code
+
+ListNode *swapPairs(ListNode *head)
+{
+    if (head == NULL || head->next == NULL)
+    {
+        return head;
+    }
+
+    ListNode *first = head;
+    ListNode *newhead = head->next;
+    ListNode *prevPair = NULL;
+
+    while (first != NULL && first->next != NULL)
+    {
+        ListNode *second = first->next;
+        ListNode *nextPair = first->next->next;
+
+        if (prevPair != NULL)
+        {
+            prevPair->next = second;
+        }
+
+        second->next = first;
+        first->next = nextPair;
+        prevPair = first;
+        first = nextPair;
+    }
+    return newhead;
+}
+
+
 ## Complexity Analysis
 
 Let `n` be the number of nodes in the linked list.
 
 - **Time Complexity:** `O(n)` — each node is processed a constant number of times.
 - **Auxiliary Space Complexity:** `O(1)` — the solution uses a constant number of pointers.
+
 
 ## Key Concepts Learned
 
@@ -68,8 +104,10 @@ Let `n` be the number of nodes in the linked list.
 - Iterative approach
 - Handling odd-length lists and edge cases
 
+
 ## Language
 C++
 
+
 ## Status
-Solved
+✅ Solved

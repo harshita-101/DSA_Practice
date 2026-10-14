@@ -77,4 +77,4 @@ Let `n` be the number of nodes in the linked list.
 C++
 
 ## Status
-Solved
+✅ Solved
