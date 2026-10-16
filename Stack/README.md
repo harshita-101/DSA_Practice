@@ -17,6 +17,7 @@ This folder contains my solutions to Stack problems for Data Structures and Algo
 | ---- | ------- | ---------- | ------ |
 | 1 | Valid Parentheses | Easy | ✅ |
 | 2 | Implement Stack using Queue | Easy | ✅ |
+| 3 | Min Stack| Medium | ✅ |
 
 ## Complexity
 
@@ -35,6 +36,9 @@ Stack/
 └── Q02.Implement_Stack_Using_Queue/
     ├── README.md
     └── implement_stack_using_queue.cpp
+└── Q03.Min_Stack/
+    ├── README.md
+    └── min_stack.cpp
 ```
 
 ## Key Concepts
