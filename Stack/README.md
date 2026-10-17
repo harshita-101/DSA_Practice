@@ -18,6 +18,7 @@ This folder contains my solutions to Stack problems for Data Structures and Algo
 | 1 | Valid Parentheses | Easy | ✅ |
 | 2 | Implement Stack using Queue | Easy | ✅ |
 | 3 | Min Stack| Medium | ✅ |
+| 4 | Evaluate Reverse Polish Notation| Medium | ✅ |
 
 ## Complexity
 
@@ -39,6 +40,9 @@ Stack/
 └── Q03.Min_Stack/
     ├── README.md
     └── min_stack.cpp
+└── Q04.Evaluate_Reverse_Polish_Notation/
+    ├── README.md
+    └── evaluate_reverse_polish_notation.cpp
 ```
 
 ## Key Concepts

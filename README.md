@@ -74,7 +74,7 @@ Each topic contains:
 | Bit Manipulation and maths| 19 | ✅ |
 | Strings | 20 | ✅ |
 | Linked List | 22 | ⏳ |
-| Stack | 3 | ⏳ |
+| Stack | 4 | ⏳ |
 | Queue | 0 | ⏳ |
 | Trees | 0 | ⏳ |
 | Graph | 0 | ⏳ |
