@@ -19,6 +19,7 @@ This folder contains my solutions to Stack problems for Data Structures and Algo
 | 2 | Implement Stack using Queue | Easy | ✅ |
 | 3 | Min Stack| Medium | ✅ |
 | 4 | Evaluate Reverse Polish Notation| Medium | ✅ |
+| 5 | Next Greater Element 1 | Easy | ✅ |
 
 ## Complexity
 
@@ -43,6 +44,9 @@ Stack/
 └── Q04.Evaluate_Reverse_Polish_Notation/
     ├── README.md
     └── evaluate_reverse_polish_notation.cpp
+└── Q05.Next_Greater_Element_1/
+    ├── README.md
+    └── next_greater_element_1.cpp
 ```
 
 ## Key Concepts
