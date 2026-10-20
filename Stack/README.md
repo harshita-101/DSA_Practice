@@ -20,6 +20,7 @@ This folder contains my solutions to Stack problems for Data Structures and Algo
 | 3 | Min Stack| Medium | ✅ |
 | 4 | Evaluate Reverse Polish Notation| Medium | ✅ |
 | 5 | Next Greater Element 1 | Easy | ✅ |
+| 6 | Baseball Game | Easy | ✅ |
 
 ## Complexity
 
@@ -47,6 +48,9 @@ Stack/
 └── Q05.Next_Greater_Element_1/
     ├── README.md
     └── next_greater_element_1.cpp
+└── Q06.Baseball_Game/
+    ├── README.md
+    └── baseball_game.cpp
 ```
 
 ## Key Concepts
