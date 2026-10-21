@@ -21,6 +21,7 @@ This folder contains my solutions to Stack problems for Data Structures and Algo
 | 4 | Evaluate Reverse Polish Notation| Medium | ✅ |
 | 5 | Next Greater Element 1 | Easy | ✅ |
 | 6 | Baseball Game | Easy | ✅ |
+| 7 | Daily Temperatures | Medium| ✅ |
 
 ## Complexity
 
@@ -51,6 +52,9 @@ Stack/
 └── Q06.Baseball_Game/
     ├── README.md
     └── baseball_game.cpp
+└── Q07.Daily_Temperatures/
+    ├── README.md
+    └── daily_temperatures.cpp
 ```
 
 ## Key Concepts
