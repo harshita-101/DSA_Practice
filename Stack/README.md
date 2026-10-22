@@ -22,6 +22,7 @@ This folder contains my solutions to Stack problems for Data Structures and Algo
 | 5 | Next Greater Element 1 | Easy | ✅ |
 | 6 | Baseball Game | Easy | ✅ |
 | 7 | Daily Temperatures | Medium| ✅ |
+| 8 | Online Stock Span | Medium| ✅ |
 
 ## Complexity
 
@@ -55,6 +56,9 @@ Stack/
 └── Q07.Daily_Temperatures/
     ├── README.md
     └── daily_temperatures.cpp
+└── Q08.Online_Stock_Span/
+    ├── README.md
+    └── online_stock_span.cpp
 ```
 
 ## Key Concepts
