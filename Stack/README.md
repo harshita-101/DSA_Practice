@@ -23,6 +23,7 @@ This folder contains my solutions to Stack problems for Data Structures and Algo
 | 6 | Baseball Game | Easy | ✅ |
 | 7 | Daily Temperatures | Medium| ✅ |
 | 8 | Online Stock Span | Medium| ✅ |
+| 9 | Remove All Adjacent Duplicates In String | Easy | ✅ |
 
 ## Complexity
 
@@ -59,6 +60,9 @@ Stack/
 └── Q08.Online_Stock_Span/
     ├── README.md
     └── online_stock_span.cpp
+└── Q09.Remove_All_Adjacent_Duplicates_In_String/
+    ├── README.md
+    └── remove_all_adjacent_duplicates_in_string.cpp
 ```
 
 ## Key Concepts
