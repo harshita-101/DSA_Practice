@@ -272,15 +272,10 @@ Both problems use a monotonic stack, but they solve different tasks.
 
 ---
 
-## ✅ Conclusion
+## Language
 
-The **Online Stock Span** problem demonstrates how a monotonic stack can efficiently process a continuous sequence of stock prices.
+C++
 
-By storing each price along with its span, we can skip groups of previous prices and avoid repeatedly checking the same days.
+## Status
 
-**Key takeaway:** When a problem asks for consecutive previous elements that are less than or equal to the current element, consider using a monotonic stack with precomputed spans.
-
-**Status:** Solved  
-**Language:** C++  
-**Topic:** Stack / Monotonic Stack / Design  
-**Difficulty:** Medium
+✅ Solved

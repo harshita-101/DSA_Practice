@@ -24,6 +24,7 @@ This folder contains my solutions to Stack problems for Data Structures and Algo
 | 7 | Daily Temperatures | Medium| ✅ |
 | 8 | Online Stock Span | Medium| ✅ |
 | 9 | Remove All Adjacent Duplicates In String | Easy | ✅ |
+| 10 | Next Greater Element 2 | EMedium | ✅ |
 
 ## Complexity
 
@@ -63,6 +64,9 @@ Stack/
 └── Q09.Remove_All_Adjacent_Duplicates_In_String/
     ├── README.md
     └── remove_all_adjacent_duplicates_in_string.cpp
+└── Q10.Next_Greater_Element_2/
+    ├── README.md
+    └── next_greater_element_2.cpp
 ```
 
 ## Key Concepts
