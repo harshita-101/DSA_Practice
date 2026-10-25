@@ -24,7 +24,8 @@ This folder contains my solutions to Stack problems for Data Structures and Algo
 | 7 | Daily Temperatures | Medium| ✅ |
 | 8 | Online Stock Span | Medium| ✅ |
 | 9 | Remove All Adjacent Duplicates In String | Easy | ✅ |
-| 10 | Next Greater Element 2 | EMedium | ✅ |
+| 10 | Next Greater Element 2 | Medium | ✅ |
+| 11 | Trapping RainWater | Hard | ✅ |
 
 ## Complexity
 
@@ -67,6 +68,9 @@ Stack/
 └── Q10.Next_Greater_Element_2/
     ├── README.md
     └── next_greater_element_2.cpp
+└── Q11.Trapping_RainWater/
+    ├── README.md
+    └── trapping_rainwater.cpp
 ```
 
 ## Key Concepts
