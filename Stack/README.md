@@ -26,6 +26,7 @@ This folder contains my solutions to Stack problems for Data Structures and Algo
 | 9 | Remove All Adjacent Duplicates In String | Easy | ✅ |
 | 10 | Next Greater Element 2 | Medium | ✅ |
 | 11 | Trapping RainWater | Hard | ✅ |
+| 12 | Largest Rectangle in Histogram | Hard | ✅ |
 
 ## Complexity
 
@@ -71,6 +72,9 @@ Stack/
 └── Q11.Trapping_RainWater/
     ├── README.md
     └── trapping_rainwater.cpp
+└── Q12.Largest_Rectangle_In_Histogram/
+    ├── README.md
+    └── largest_rectangle_in_hstogram.cpp
 ```
 
 ## Key Concepts
