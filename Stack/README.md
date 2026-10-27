@@ -27,6 +27,7 @@ This folder contains my solutions to Stack problems for Data Structures and Algo
 | 10 | Next Greater Element 2 | Medium | ✅ |
 | 11 | Trapping RainWater | Hard | ✅ |
 | 12 | Largest Rectangle in Histogram | Hard | ✅ |
+| 13 | Sum of Subarray Minimums | Medium | ✅ |
 
 ## Complexity
 
@@ -75,6 +76,9 @@ Stack/
 └── Q12.Largest_Rectangle_In_Histogram/
     ├── README.md
     └── largest_rectangle_in_hstogram.cpp
+└── Q13.Sum_Of_Subarray_Minimums/
+    ├── README.md
+    └── sum_of_subarray_minimums.cpp
 ```
 
 ## Key Concepts
