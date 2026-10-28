@@ -28,6 +28,7 @@ This folder contains my solutions to Stack problems for Data Structures and Algo
 | 11 | Trapping RainWater | Hard | ✅ |
 | 12 | Largest Rectangle in Histogram | Hard | ✅ |
 | 13 | Sum of Subarray Minimums | Medium | ✅ |
+| 14 | Sum of Subarray Ranges | Medium | ✅ |
 
 ## Complexity
 
@@ -79,6 +80,9 @@ Stack/
 └── Q13.Sum_Of_Subarray_Minimums/
     ├── README.md
     └── sum_of_subarray_minimums.cpp
+└── Q14.Sum_Of_Subarray_Ranges/
+    ├── README.md
+    └── sum_of_subarray_ranges.cpp
 ```
 
 ## Key Concepts
