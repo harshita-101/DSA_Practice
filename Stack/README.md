@@ -29,6 +29,7 @@ This folder contains my solutions to Stack problems for Data Structures and Algo
 | 12 | Largest Rectangle in Histogram | Hard | ✅ |
 | 13 | Sum of Subarray Minimums | Medium | ✅ |
 | 14 | Sum of Subarray Ranges | Medium | ✅ |
+| 15 | Remove K Digits | Medium | ✅ |
 
 ## Complexity
 
@@ -83,6 +84,9 @@ Stack/
 └── Q14.Sum_Of_Subarray_Ranges/
     ├── README.md
     └── sum_of_subarray_ranges.cpp
+└── Q15.Remove_K_Digits/
+    ├── README.md
+    └── remove_k_digits.cpp
 ```
 
 ## Key Concepts
