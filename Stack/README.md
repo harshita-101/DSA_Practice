@@ -30,6 +30,7 @@ This folder contains my solutions to Stack problems for Data Structures and Algo
 | 13 | Sum of Subarray Minimums | Medium | ✅ |
 | 14 | Sum of Subarray Ranges | Medium | ✅ |
 | 15 | Remove K Digits | Medium | ✅ |
+| 16 | Make the String Great | Easy | ✅ |
 
 ## Complexity
 
@@ -87,6 +88,9 @@ Stack/
 └── Q15.Remove_K_Digits/
     ├── README.md
     └── remove_k_digits.cpp
+└── Q16.Make_The_String_Great/
+    ├── README.md
+    └── make_the_string_great.cpp
 ```
 
 ## Key Concepts
