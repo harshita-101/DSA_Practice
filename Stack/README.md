@@ -31,6 +31,7 @@ This folder contains my solutions to Stack problems for Data Structures and Algo
 | 14 | Sum of Subarray Ranges | Medium | ✅ |
 | 15 | Remove K Digits | Medium | ✅ |
 | 16 | Make the String Great | Easy | ✅ |
+| 17 | Backspace String Compare | Easy| ✅ |
 
 ## Complexity
 
@@ -91,6 +92,9 @@ Stack/
 └── Q16.Make_The_String_Great/
     ├── README.md
     └── make_the_string_great.cpp
+└── Q17.Backspace_String_Compare/
+    ├── README.md
+    └── backspace_string_compare.cpp
 ```
 
 ## Key Concepts
