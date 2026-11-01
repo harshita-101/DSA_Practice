@@ -1,11 +1,3 @@
-# Q12. Backspace String Compare
-
-**LeetCode Problem:** [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)  
-**Difficulty:** Easy  
-**Topics:** Stack, String, Two Pointers
-
----
-
 ## 📌 Problem Statement
 
 Given two strings `s` and `t`, return `true` if they are equal when both are typed into empty text editors. Otherwise, return `false`.
@@ -82,61 +74,6 @@ We use a **Stack** to process both strings and handle backspace operations.
 
 Instead of directly modifying the original strings, we store valid characters in a stack.
 
-### What Do We Store in the Stack?
-
-```cpp
-stack<char> st;
-```
-
-We store characters in the stack.
-
-The stack follows the **Last In, First Out (LIFO)** principle.
-
-This is useful because a backspace always removes the most recently added character.
-
-### How Does Backspace Work?
-
-There are two possible cases:
-
-**Case 1: Stack is not empty**
-
-If the current character is `#`, remove the top character using `pop()`.
-
-Example:
-
-```text
-Input: "ab#"
-```
-
-- Push `a`.
-- Push `b`.
-- `#` appears, so pop `b`.
-
-Final stack contains:
-
-```text
-a
-```
-
-**Case 2: Stack is empty**
-
-If the current character is `#` and the stack is empty, ignore it.
-
-Example:
-
-```text
-Input: "##a"
-```
-
-- First `#` → Ignore.
-- Second `#` → Ignore.
-- `a` → Push.
-
-Final stack contains:
-
-```text
-a
-```
 
 ### Algorithm
 
