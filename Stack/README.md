@@ -32,6 +32,7 @@ This folder contains my solutions to Stack problems for Data Structures and Algo
 | 15 | Remove K Digits | Medium | ✅ |
 | 16 | Make the String Great | Easy | ✅ |
 | 17 | Backspace String Compare | Easy| ✅ |
+| 18 | Validate Stack sequences | Medium | ✅ | 
 
 ## Complexity
 
@@ -95,6 +96,9 @@ Stack/
 └── Q17.Backspace_String_Compare/
     ├── README.md
     └── backspace_string_compare.cpp
+└── Q18.Validate_Stack_Sequences/
+    ├── README.md
+    └── validate_stack_sequences.cpp
 ```
 
 ## Key Concepts
