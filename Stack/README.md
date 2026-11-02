@@ -32,7 +32,8 @@ This folder contains my solutions to Stack problems for Data Structures and Algo
 | 15 | Remove K Digits | Medium | ✅ |
 | 16 | Make the String Great | Easy | ✅ |
 | 17 | Backspace String Compare | Easy| ✅ |
-| 18 | Validate Stack sequences | Medium | ✅ | 
+| 18 | Validate Stack sequences | Medium | ✅ |
+| 19 | Final Prices With a Special Discount in a Shop | Easy | ✅ | 
 
 ## Complexity
 
@@ -99,6 +100,9 @@ Stack/
 └── Q18.Validate_Stack_Sequences/
     ├── README.md
     └── validate_stack_sequences.cpp
+└── Q19.Final_Prices_With_A_Special_Discount_In_A_Shop/
+    ├── README.md
+    └── final_prices_with_a_special_discount_in_a_shop.cpp
 ```
 
 ## Key Concepts
