@@ -34,6 +34,7 @@ This folder contains my solutions to Stack problems for Data Structures and Algo
 | 17 | Backspace String Compare | Easy| ✅ |
 | 18 | Validate Stack sequences | Medium | ✅ |
 | 19 | Final Prices With a Special Discount in a Shop | Easy | ✅ | 
+| 20 | Minimum Add to make Parantheses Valid | Medium | ✅ | 
 
 ## Complexity
 
@@ -103,6 +104,9 @@ Stack/
 └── Q19.Final_Prices_With_A_Special_Discount_In_A_Shop/
     ├── README.md
     └── final_prices_with_a_special_discount_in_a_shop.cpp
+└── Q20.Minimum_Add_To_Make_Parantheses_Valid/
+    ├── README.md
+    └── minimum_add_to_make_parantheses_valid.cpp
 ```
 
 ## Key Concepts
