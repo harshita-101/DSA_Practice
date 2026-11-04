@@ -166,17 +166,6 @@ Let `n` be the number of elements in the `pushed` array.
 
 ---
 
-## Brute Force vs Optimized Approach
-
-| Brute Force | Stack Simulation |
-|---|---|
-| Tries different possible push/pop combinations. | Simulates operations in the given order. |
-| Can be expensive. | O(n) time complexity. |
-| More complicated. | Simple and efficient. |
-
-**Optimized Approach:** Stack Simulation – O(n) Time and O(n) Space.
-
----
 
 **Language:** C++  
 **Status:** Solved ✅

@@ -118,25 +118,6 @@ We can also update the correct position using:
 ```cpp
 ans[st.top()]
 ```
-
-### Why Do We Use a While Loop?
-
-We use a `while` loop because one current element can provide discounts to multiple previous elements.
-
-For example:
-
-```text
-prices = [8,6,4,2]
-```
-
-When we reach `2`, it provides a discount to:
-
-- 4
-- 6
-- 8
-
-Therefore, we keep popping elements until the stack is empty or the condition becomes false.
-
 ---
 
 ## C++ Solution

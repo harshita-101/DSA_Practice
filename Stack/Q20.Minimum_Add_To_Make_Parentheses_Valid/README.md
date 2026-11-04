@@ -81,15 +81,6 @@ Two opening parentheses are unmatched by closing parentheses, and two closing pa
 Therefore, we need to add 4 parentheses.
 
 ---
-
-## Approach: Stack
-
-We use a stack to store unmatched parentheses.
-
-### What Do We Store in the Stack?
-
-We store characters (`'('` and `')'`) that do not have a matching parenthesis.
-
 ### Algorithm
 
 1. Create an empty stack of characters.
