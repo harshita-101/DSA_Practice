@@ -35,6 +35,7 @@ This folder contains my solutions to Stack problems for Data Structures and Algo
 | 18 | Validate Stack sequences | Medium | ✅ |
 | 19 | Final Prices With a Special Discount in a Shop | Easy | ✅ | 
 | 20 | Minimum Add to make Parantheses Valid | Medium | ✅ | 
+| 21 | Decode String | Medium | ✅ | 
 
 ## Complexity
 
@@ -107,6 +108,9 @@ Stack/
 └── Q20.Minimum_Add_To_Make_Parantheses_Valid/
     ├── README.md
     └── minimum_add_to_make_parantheses_valid.cpp
+└── Q21.Decode_String/
+    ├── README.md
+    └── decode_string.cpp
 ```
 
 ## Key Concepts
