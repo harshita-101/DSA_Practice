@@ -36,6 +36,7 @@ This folder contains my solutions to Stack problems for Data Structures and Algo
 | 19 | Final Prices With a Special Discount in a Shop | Easy | ✅ | 
 | 20 | Minimum Add to make Parantheses Valid | Medium | ✅ | 
 | 21 | Decode String | Medium | ✅ | 
+| 22 | Simplify Path | Medium | ✅ | 
 
 ## Complexity
 
@@ -111,6 +112,9 @@ Stack/
 └── Q21.Decode_String/
     ├── README.md
     └── decode_string.cpp
+└── Q22.Simplify_Path/
+    ├── README.md
+    └── simplify_path.cpp
 ```
 
 ## Key Concepts
