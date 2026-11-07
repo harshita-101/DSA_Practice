@@ -75,7 +75,7 @@ Each topic contains:
 | Strings | 20 | ✅ |
 | Linked List | 22 | ⏳ |
 | Stack | 22 | ⏳ |
-| Queue | 0 | ⏳ |
+| Queue | 1 | ⏳ |
 | Trees | 0 | ⏳ |
 | Graph | 0 | ⏳ |
 | Dynamic Programming | 0 | ⏳ |
