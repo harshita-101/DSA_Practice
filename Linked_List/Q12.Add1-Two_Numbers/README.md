@@ -57,23 +57,6 @@ l2 = 0
 
 ---
 
-### Example 3
-
-**Input:**
-
-```text
-l1 = 9 → 9 → 9 → 9
-l2 = 9 → 9 → 9
-```
-
-**Output:**
-
-```text
-8 → 9 → 9 → 0 → 1
-```
-
----
-
 ## Approach
 
 The numbers are already stored in **reverse order**, so we can add the digits directly from the beginning of both linked lists.

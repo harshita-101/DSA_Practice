@@ -39,20 +39,6 @@ Given the head of a linked list, return the list after sorting it in ascending o
 -1 → 0 → 3 → 4 → 5
 ```
 
-### Example 3
-
-**Input:**
-
-```text
-1
-```
-
-**Output:**
-
-```text
-1
-```
-
 ---
 
 ## Approach
