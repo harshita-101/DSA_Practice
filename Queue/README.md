@@ -17,6 +17,7 @@ This folder contains my solutions to Queue problems for Data Structures and Algo
 | S.No | Problem | Difficulty | Status |
 | ---- | ------- | ---------- | ------ |
 | 1 | Implement Queue using Two Stacks | Easy | ✅ |
+| 2 | Number of Recent Calls | Easy | ✅ |
 
 ## Complexity
 
@@ -32,6 +33,10 @@ Queue/
 └── Q01.Implement_Queue_Using_Two_Stacks/
     ├── README.md
     └── implement_queue_using_two_stacks.cpp
+└── Q02.Number_Of_Recent_Calls/
+    ├── README.md
+    └── number_of_recent_calls.cpp
+```
 ```
 
 ## Key Concepts
