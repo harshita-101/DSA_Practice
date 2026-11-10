@@ -36,15 +36,6 @@ Output:
 0
 ```
 
-### Example 3
-
-```text
-Input:
-nums = [11,13,15,17]
-
-Output:
-11
-```
 
 ---
 

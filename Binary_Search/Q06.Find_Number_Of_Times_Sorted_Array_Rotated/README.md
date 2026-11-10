@@ -54,20 +54,6 @@ Output:
 
 ---
 
-### Example 3
-
-```text
-Input:
-arr = [1,2,3,4,5]
-
-Output:
-0
-```
-
-The array is already sorted, so it has been rotated **0** times.
-
----
-
 ## Approach
 
 The index of the minimum element is equal to the number of rotations.

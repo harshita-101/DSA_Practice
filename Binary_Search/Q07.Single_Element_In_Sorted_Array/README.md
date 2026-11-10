@@ -38,18 +38,6 @@ Output:
 
 ---
 
-### Example 3
-
-```text
-Input:
-nums = [1]
-
-Output:
-1
-```
-
----
-
 ## Approach
 
 Since the array is sorted:
