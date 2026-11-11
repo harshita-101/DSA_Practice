@@ -18,6 +18,7 @@ This folder contains my solutions to Queue problems for Data Structures and Algo
 | ---- | ------- | ---------- | ------ |
 | 1 | Implement Queue using Two Stacks | Easy | ✅ |
 | 2 | Number of Recent Calls | Easy | ✅ |
+| 3 | Time Needed to Buy Tickets | Easy | ✅ |
 
 ## Complexity
 
@@ -36,6 +37,9 @@ Queue/
 └── Q02.Number_Of_Recent_Calls/
     ├── README.md
     └── number_of_recent_calls.cpp
+└── Q03.Time_Needed_To_Buy_Tickets/
+    ├── README.md
+    └── time_needed_to_buy_tickets.cpp
 ```
 ```
 
