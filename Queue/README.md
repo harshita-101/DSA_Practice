@@ -19,6 +19,7 @@ This folder contains my solutions to Queue problems for Data Structures and Algo
 | 1 | Implement Queue using Two Stacks | Easy | ✅ |
 | 2 | Number of Recent Calls | Easy | ✅ |
 | 3 | Time Needed to Buy Tickets | Easy | ✅ |
+| 4 | Design Circular Queue | Medium | ✅ |
 
 ## Complexity
 
@@ -40,6 +41,9 @@ Queue/
 └── Q03.Time_Needed_To_Buy_Tickets/
     ├── README.md
     └── time_needed_to_buy_tickets.cpp
+└── Q04.Design_Circular_Queue/
+    ├── README.md
+    └── design_circular_queue.cpp
 ```
 ```
 
