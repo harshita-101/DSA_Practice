@@ -21,6 +21,7 @@ This folder contains my solutions to Queue problems for Data Structures and Algo
 | 3 | Time Needed to Buy Tickets | Easy | ✅ |
 | 4 | Design Circular Queue | Medium | ✅ |
 | 5 | Reveal Cards In Increasing Order | Medium | ✅ |
+| 6 | Dota2 Senate | Medium | ✅ |
 
 ## Complexity
 
@@ -48,6 +49,9 @@ Queue/
 └── Q05.Reveal_Cards_In_Increasing_Order/
     ├── README.md
     └── reveal_cards_in_increasing_order.cpp
+└── Q06.Dota2_Senate/
+    ├── dota2_senate.cpp
+    └── README.md
 ```
 ```
 
