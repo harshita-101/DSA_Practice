@@ -20,6 +20,7 @@ This folder contains my solutions to Queue problems for Data Structures and Algo
 | 2 | Number of Recent Calls | Easy | ✅ |
 | 3 | Time Needed to Buy Tickets | Easy | ✅ |
 | 4 | Design Circular Queue | Medium | ✅ |
+| 5 | Reveal Cards In Increasing Order | Medium | ✅ |
 
 ## Complexity
 
@@ -44,6 +45,9 @@ Queue/
 └── Q04.Design_Circular_Queue/
     ├── README.md
     └── design_circular_queue.cpp
+└── Q05.Reveal_Cards_In_Increasing_Order/
+    ├── README.md
+    └── reveal_cards_in_increasing_order.cpp
 ```
 ```
 
