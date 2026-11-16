@@ -22,7 +22,8 @@ This folder contains my solutions to Queue problems for Data Structures and Algo
 | 4 | Design Circular Queue | Medium | ✅ |
 | 5 | Reveal Cards In Increasing Order | Medium | ✅ |
 | 6 | Dota2 Senate | Medium | ✅ |
-| 7 | Find the Winner of the Circular Game | ✅ |
+| 7 | Find the Winner of the Circular Game | Medium | ✅ |
+| 8 | Design Circular Deque | Medium | ✅ |
 
 ## Complexity
 
@@ -55,6 +56,9 @@ Queue/
     └── README.md
 └── Q07.Find_The_Winner_Of_The_Circular_Game/
     ├── find_the_winner_of_the_circular_game.cpp
+    └── README.md
+└── Q08.Design_Circular_Deque/
+    ├── design_circular_deque.cpp
     └── README.md
 ```
 
