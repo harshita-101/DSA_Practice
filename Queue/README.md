@@ -24,6 +24,7 @@ This folder contains my solutions to Queue problems for Data Structures and Algo
 | 6 | Dota2 Senate | Medium | ✅ |
 | 7 | Find the Winner of the Circular Game | Medium | ✅ |
 | 8 | Design Circular Deque | Medium | ✅ |
+| 9 | Design Front Middle Back Queue | Medium | ✅ |
 
 ## Complexity
 
@@ -59,6 +60,9 @@ Queue/
     └── README.md
 └── Q08.Design_Circular_Deque/
     ├── design_circular_deque.cpp
+    └── README.md
+└── Q09.Design_Front_Middle_Back_Queue/
+    ├── design_front_middle_back_queue.cpp
     └── README.md
 ```
 
