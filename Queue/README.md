@@ -25,6 +25,7 @@ This folder contains my solutions to Queue problems for Data Structures and Algo
 | 7 | Find the Winner of the Circular Game | Medium | ✅ |
 | 8 | Design Circular Deque | Medium | ✅ |
 | 9 | Design Front Middle Back Queue | Medium | ✅ |
+| 10 | Find Consecutive Integers from a Data Stream | Medium | ✅ |
 
 ## Complexity
 
@@ -63,6 +64,9 @@ Queue/
     └── README.md
 └── Q09.Design_Front_Middle_Back_Queue/
     ├── design_front_middle_back_queue.cpp
+    └── README.md
+└── Q10.Find_Consecutive_Integers_From_Data_Stream/
+    ├── find_consecutive_integers_from_data_stream.cpp
     └── README.md
 ```
 
