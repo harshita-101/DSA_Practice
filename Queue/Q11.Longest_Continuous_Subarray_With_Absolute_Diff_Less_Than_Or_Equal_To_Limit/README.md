@@ -156,11 +156,6 @@ limit = 4
 ## C++ Implementation
 
 ```cpp
-#include<iostream>
-#include<vector>
-#include<deque>
-#include<algorithm>
-using namespace std;
 
 class Solution {
 public:

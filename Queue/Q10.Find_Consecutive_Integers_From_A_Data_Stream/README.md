@@ -37,8 +37,6 @@ We use a counter variable to track consecutive occurrences of the target value.
 ## C++ Implementation
 
 ```cpp
-#include<iostream>
-using namespace std;
 
 class DataStream {
     int value;

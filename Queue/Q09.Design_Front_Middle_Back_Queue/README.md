@@ -1,9 +1,3 @@
-# Q11. Design Front Middle Back Queue
-
-**LeetCode:** [1670. Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/)  
-**Difficulty:** Medium  
-**Topic:** Queue, Deque, Design, STL
-
 ## Problem Statement
 
 Design a queue that supports insertion and deletion at three positions:
@@ -142,9 +136,6 @@ Now perform deletion operations:
 ## C++ Implementation
 
 ```cpp
-#include<iostream>
-#include<deque>
-using namespace std;
 
 class FrontMiddleBackQueue {
     deque<int> left;
