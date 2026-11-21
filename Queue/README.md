@@ -27,6 +27,7 @@ This folder contains my solutions to Queue problems for Data Structures and Algo
 | 9 | Design Front Middle Back Queue | Medium | ✅ |
 | 10 | Find Consecutive Integers from a Data Stream | Medium | ✅ |
 | 11 | Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit | Medium | ✅ |
+| 12 | Continuous Subarrays | Medium | ✅ |
 
 ## Complexity
 
@@ -71,6 +72,9 @@ Queue/
     └── README.md
 └── Q11.Longest_Continuous_Subarray_With_Absolute_Diff_Less_Than_Or_Equal_To_Limit/
     ├── longest_continuous_subarray_with_absolute_diff_less_than_or_equal_to_limit.cpp
+    └── README.md
+└── Q12.Continuous_Subarrays/
+    ├── continuous_subarrays.cpp
     └── README.md
 ```
 
