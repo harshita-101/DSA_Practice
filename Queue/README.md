@@ -28,6 +28,7 @@ This folder contains my solutions to Queue problems for Data Structures and Algo
 | 10 | Find Consecutive Integers from a Data Stream | Medium | ✅ |
 | 11 | Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit | Medium | ✅ |
 | 12 | Continuous Subarrays | Medium | ✅ |
+| 13 | Shortest Subarray with Sum at Least K | Hard | ✅ |
 
 ## Complexity
 
@@ -75,6 +76,9 @@ Queue/
     └── README.md
 └── Q12.Continuous_Subarrays/
     ├── continuous_subarrays.cpp
+    └── README.md
+└── Q13.Shortest_Subarray_With_Sum_At_Least_K/
+    ├── shortest_subarray_with_sum_at_least_k.cpp
     └── README.md
 ```
 
