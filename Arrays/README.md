@@ -38,7 +38,9 @@ This folder contains my solutions to Array problems for Data Structures and Algo
 | 22| Remove Duplicates from Sorted Array 2              | Medium     | ✅ |
 | 23| Find Missing Positive   | Hard      | ✅ |
 | 24| Median of Two Sorted Array   | Hard      | ✅ |
-| 24| Sort an Array   | Medium     | ✅ |
+| 25| Sort an Array   | Medium     | ✅ |
+| 26| Product of Array Except Self | Medium | ✅ |
+
 
 
 ## Folder Structure
@@ -126,4 +128,7 @@ Arrays/
 ├── Q25.Sort_An_Array/
 │   ├── README.md
 │   └── sort_an_array.cpp
+├── Q26.Product_Of_Array_Except_Self/
+│   ├── README.md
+│   └── product_of_array_except_self.cpp
 ```
