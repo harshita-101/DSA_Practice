@@ -29,6 +29,7 @@ This folder contains my solutions to Queue problems for Data Structures and Algo
 | 11 | Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit | Medium | ✅ |
 | 12 | Continuous Subarrays | Medium | ✅ |
 | 13 | Shortest Subarray with Sum at Least K | Hard | ✅ |
+| 14 | Minimum Operations to Make Binary Array Elements Equal to One I | Medium | ✅ |
 
 ## Complexity
 
@@ -79,6 +80,9 @@ Queue/
     └── README.md
 └── Q13.Shortest_Subarray_With_Sum_At_Least_K/
     ├── shortest_subarray_with_sum_at_least_k.cpp
+    └── README.md
+└── Q14.Minimum_Operations_Binary_Array_Equal_One/
+    ├── minimum_operations_binary_array_equal_one.cpp
     └── README.md
 ```
 
