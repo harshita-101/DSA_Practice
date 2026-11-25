@@ -35,7 +35,8 @@ Each problem includes:
 | Q17 | Roman To Integer | Easy | ✅ |
 | Q18 | Fizz Buzz | Easy | ✅ |
 | Q19 | Excel Sheet Column Number | Easy | ✅ |
-| Q19 | Basic Calculator | Hard | ✅ |
+| Q20 | Basic Calculator | Hard | ✅ |
+| Q21 | Maximum Number of Vowels in a Substring of Given Length | Medium | ✅ |
 
 ---
 
@@ -139,3 +140,7 @@ Strings/
 └── Q20.Basic_Calculator/
     ├── README.md
     └── basic_calculator.cpp
+
+└── Q21.Maximum_Number_Of_Vowels_In_A_Substring_Of_Given_Length/
+    ├── maximum_number_of_vowels_in_a_substring_of_given_length.cpp
+    └── README.md
