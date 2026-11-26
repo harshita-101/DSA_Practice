@@ -30,6 +30,7 @@ This folder contains my solutions to Queue problems for Data Structures and Algo
 | 12 | Continuous Subarrays | Medium | ✅ |
 | 13 | Shortest Subarray with Sum at Least K | Hard | ✅ |
 | 14 | Minimum Operations to Make Binary Array Elements Equal to One I | Medium | ✅ |
+| 15 | Sliding Window Maximum | Hard | ✅ |
 
 ## Complexity
 
@@ -84,6 +85,9 @@ Queue/
 └── Q14.Minimum_Operations_Binary_Array_Equal_One/
     ├── minimum_operations_binary_array_equal_one.cpp
     └── README.md
+├── Q15_Sliding_Window_Maximum/
+│   ├── README.md
+│   └── sliding_window_maximum.cpp
 ```
 
 ## Key Concepts
