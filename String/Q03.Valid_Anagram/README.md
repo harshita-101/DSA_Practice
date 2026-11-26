@@ -41,7 +41,28 @@ false
 ```
 
 ---
+## Code
+bool isAnagram(string s, string t) {
+    vector<int> freq(26, 0);
 
+    if(s.length() != t.length()){
+        return false;
+    }
+        
+    for(int i=0; i< s.length(); i++){
+        freq[s[i] - 'a']++;
+    }
+
+    for(int i=0; i< t.length(); i++){
+        freq[t[i] - 'a']--;
+        if(freq[t[i] - 'a'] < 0)
+        return false;
+    }
+        
+    return true; 
+}
+
+---
 ## Approach
 
 Use a **Frequency Array** of size `26`.
