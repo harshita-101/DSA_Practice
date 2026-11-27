@@ -48,7 +48,22 @@ Use the **Two Pointer** technique.
 - Continue until both pointers meet.
 
 ---
+## Code 
 
+void reverseString(vector<char>& s)
+{
+    int left = 0;
+    int right = s.size() - 1;
+
+    while (left < right)
+    {
+        swap(s[left], s[right]);
+        left++;
+        right--;
+    }
+}
+
+---
 ## Algorithm
 
 1. Initialize `left = 0`.
