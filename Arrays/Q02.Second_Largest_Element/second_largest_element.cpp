@@ -2,6 +2,7 @@
 #include <climits>
 using namespace std;
 
+
 int second_largest_element(int arr[], int n){
     int largest = arr[0];
     int second_largest = INT_MIN;
